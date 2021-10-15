@@ -33,23 +33,32 @@ O estudante e autor deste projeto, Benjamin Walter, segue esta metodologia. Atua
     - [Protocolo TCP/IP](#)
     - [Protocolo HTTP](#)
     - [Protocolo UDP](#)
+  - [Linux](#)
   - ...
-- Vulnerabilidades
-  - SQL Injection
-  - XSS
-  - CSRF
-  - IDOR
+- [Vulnerabilidades](#)
+  - [SQL Injection](#)
+  - [XSS](#)
+  - [CSRF](#)
+  - [IDOR](#)
   - ...
+- [Reconhecimento do alvo](#)
+  - [Enumeração de subdomínos](#)
+  - [Enumeração de portas](#)
+  - [Google dork](#)
+  - [Crawling](#)
+- [Ferramentas](#)
+  - [Sqlmap](#)
+  - [amass](#)
+  - [nmap](#)
 - [Bug bounty](#)
-  - Como participar
-  - Plataformas
+  - [Como participar](#)
+  - [Plataformas](#)
 - [CTF](#)
-  - Como participar
-  - Plataformas
+  - [Como participar](#)
+  - [Plataformas](#)
 - [Pentest](#)
-  - Como começar no pentest
-  - Certificações
-  - 
+  - [Como começar no pentest](#)
+  - [Certificações](#)
 - [License](#license)
 - [Fontes](#fontes)
 
