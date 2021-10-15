@@ -7,7 +7,7 @@
 - [Diferenças entre hacking e hacking ético](#)
 - [O inglês é essencial!](#)
 - [O que você precisa saber antes de começar no web hacking?](#)
-  - [OAC - Organização e arquitetura de cumputadores](#)
+  - [OAC - Organização e arquitetura de computadores](#)
   - [C/C++](#)
   - ...
   - [HTML - HyperText Markup Language](#)
