@@ -20,15 +20,16 @@ O estudante e autor deste projeto, Benjamin Walter, segue esta metodologia. Atua
 - [Diferenças entre hacking e hacking ético](#)
 - [O inglês é essencial!](#)
 - [O que você precisa saber antes de começar no web hacking?](#)
+  - [Lógica de programação](#)
   - [OAC - Organização e arquitetura de computadores](#)
   - [C/C++](#)
-  - ...
+  <!-- Devo incluir assembly? Acho que não, pois é web. OAC já vai dar -->
   - [HTML - HyperText Markup Language](#)
   - [CSS - Cascading Style Sheets](#)
   - [Javascript](#)
   - [PHP](#)
   - [MySQL](#)
-  - [Redes](#)
+  - [Redes](#) 
     - [Protocolo TCP/IP](#)
     - [Protocolo HTTP](#)
     - [Protocolo UDP](#)
