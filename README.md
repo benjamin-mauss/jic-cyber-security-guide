@@ -2,7 +2,7 @@
 
 O projeto surgiu ao perceber que a demanda por profissionais de segurança da informação está cada vez maior. Os conteúdos dispersos confundem estudantes que querem aprender ou, muitas vezes, por ser um ramo novo, há um desconhecimento da área.
 
-Somente em 2021, ataques hackers já atingiram US$ 6 trilhões em prejuízos, dinheiro que poderia estar sendo usado em avanços tecnológicos, segurança e sa. Ataques hackers a hospitais, usinas nucleares e grandes estruturas podem acabar em tragédias, gerando perda de diversas vidas.
+Somente em 2021, ataques hackers já atingiram US$ 6 trilhões em prejuízos, dinheiro que poderia estar sendo usado em avanços tecnológicos, segurança ou investido em educação. Ataques hackers a hospitais, usinas nucleares e grandes estruturas podem acabar em tragédias, gerando perda de diversas vidas.
 
 O objetivo deste projeto é orientar o que os estudantes de segurança da informação em web hacking devem aprender, afim de ajudar a mitigar a falta desses profissionais no mercado.
 
