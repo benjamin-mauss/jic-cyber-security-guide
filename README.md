@@ -1,14 +1,14 @@
 # Guia de estudos para Web Hacking \[2021\]
 
-O projeto surgiu ao perceber que a demanda por profissionais de segurança da informação está cada vez maior. Os conteúdos dispersos confundem estudantes que querem aprender ou, muitas vezes, por ser um ramo novo, há um desconhecimento da área por parte dos estudantes.
+O projeto surgiu ao perceber que a demanda por profissionais de segurança da informação está cada vez maior. Os conteúdos dispersos confundem estudantes que querem aprender ou, muitas vezes, por ser um ramo novo, há um desconhecimento da área.
 
-Somente em 2021, ataques hackers já atingiram US$ 6 trilhões em prejuízos, dinheiro que poderia estar sendo usado em avanços tecnológicos. Ataques hackers a hospitais, usinas nucleares e grandes estruturas podem acabar em tragédias, gerando perda de diversas vidas.
+Somente em 2021, ataques hackers já atingiram US$ 6 trilhões em prejuízos, dinheiro que poderia estar sendo usado em avanços tecnológicos, segurança e sa. Ataques hackers a hospitais, usinas nucleares e grandes estruturas podem acabar em tragédias, gerando perda de diversas vidas.
 
-O objetivo deste projeto é orientar o que os estudantes de segurança da informação devem aprender, afim de ajudar a mitigar a falta desses profissionais no mercado, atravéz do web hacking e pentest.
+O objetivo deste projeto é orientar o que os estudantes de segurança da informação em web hacking devem aprender, afim de ajudar a mitigar a falta desses profissionais no mercado.
 
-O método empregado é criação de um website que faz a indexação de materiais didáticos, gratúitos e de qualidade que os estudantes usarão como guia em seus estudos de segurança da informação, sendo eles materiais em inglês e em português.
+O método empregado é criação de um website que faz a indexação de materiais didáticos, gratúitos e de qualidade, o qual os estudantes usarão como um guia em seus estudos de segurança da informação, sendo eles materiais em inglês e em português.
 
-O estudante e autor deste projeto, Benjamin Walter, segue esta metodologia. Atualmente ele trabalha na área de segurança de informação, encontrando e reportando, eticamente, vulnerabilidades para grandes empresas como facebook, shopify, mercado livre, cs money, avast, google, discord e outros programas de recompesas por vulnerabilidades privados.
+O estudante e autor deste projeto, Benjamin Walter, segue esta metodologia. Atualmente ele trabalha na área de segurança de informação, encontrando e reportando, eticamente, vulnerabilidades para grandes empresas como Facebook, Shopify, Mercado Livre, CS Money, Avast, Google, Discord e outros programas de recompesas por vulnerabilidades privados.
 
 
 
