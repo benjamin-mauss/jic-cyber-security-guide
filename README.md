@@ -1,7 +1,7 @@
 # Guia de estudos para Web Hacking \[2021\]
 ![WEBHACKING](https://user-images.githubusercontent.com/86640585/137555285-2818548d-68f9-4658-b248-c3776367303a.png)
 
-O projeto surgiu ao perceber que a demanda por profissionais de segurança da informação está cada vez maior. Os conteúdos dispersos confundem estudantes que querem aprender ou, muitas vezes, por ser um ramo novo, há um desconhecimento da área.
+O projeto surgiu quando os integrantes do grupo perceberam que a demanda por profissionais de segurança da informação está cada vez maior. Os conteúdos dispersos confundem estudantes que querem aprender ou, muitas vezes, por ser um ramo novo, há um desconhecimento da área.
 
 Somente em 2021, ataques hackers já atingiram US$ 6 trilhões em prejuízos, dinheiro que poderia estar sendo usado em avanços tecnológicos, segurança ou investido em educação. Ataques hackers a hospitais, usinas nucleares e grandes estruturas podem acabar em tragédias, gerando perda de diversas vidas.
 
@@ -18,7 +18,6 @@ O estudante e autor deste projeto, Benjamin Walter, segue esta metodologia. Atua
 - [Introdução](#)
   - [O que é web hacking?](#)
   - [Por quer ser um web hacker?](#)
-- [Diferenças entre hacking e hacking ético](#)
 - [O inglês é essencial!](#)
 - [O que você precisa saber antes de começar no web hacking?](#)
   - [Lógica de programação](#)
@@ -28,16 +27,29 @@ O estudante e autor deste projeto, Benjamin Walter, segue esta metodologia. Atua
   - [HTML - HyperText Markup Language](#)
   - [CSS - Cascading Style Sheets](#)
   - [Javascript](#)
-  - [PHP](#)
+  - [PHP - Hypertext Preprocessor](#)
   - [MySQL](#)
   - [Redes](#) 
     - [Protocolo TCP/IP](#)
     - [Protocolo HTTP](#)
     - [Protocolo UDP](#)
   - ...
+- Vulnerabilidades
+  - SQL Injection
+  - XSS
+  - CSRF
+  - IDOR
+  - ...
 - [Bug bounty](#)
+  - Como participar
+  - Plataformas
 - [CTF](#)
+  - Como participar
+  - Plataformas
 - [Pentest](#)
+  - Como começar no pentest
+  - Certificações
+  - 
 - [License](#license)
 - [Fontes](#fontes)
 
@@ -46,8 +58,6 @@ O estudante e autor deste projeto, Benjamin Walter, segue esta metodologia. Atua
 ### O que é web hacking?
 
 ### Por quer ser um web hacker?
-
-## Diferenças entre hacking e hacking ético
 
 ## O inglês é essencial!
 
