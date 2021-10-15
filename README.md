@@ -20,10 +20,13 @@
     - [Protocolo HTTP](#)
     - [Protocolo UDP](#)
   - ...
+- [Bug bounty](#)
+- [CTF](#)
+- [Pentest](#)
 - [License](#license)
 - [Fontes](#fontes)
 
-
+## Introdução
 
 ## Fontes
 - [Hacker roadmap](https://github.com/sundowndev/hacker-roadmap)
