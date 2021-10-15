@@ -1,13 +1,14 @@
-# Guia de segurança em hacking web [2021]
+# Guia de estudos para web hacking [2021]
 
 # Tabela de conteúdos
 - [Introdução](#)
-  - [O que é hacking web?](#)
+  - [O que é web hacking?](#)
   - [Você quer se tornar um web hacker?](#)
 - [Diferenças entre hacking e hacking ético](#)
+- [O inglês é essencial!](#)
 - [O que você precisa saber antes de começar no web hacking?](#)
-  - [OAC - Organização e arquitetura de cumputadores]()
-  - C/C++
+  - [OAC - Organização e arquitetura de cumputadores](#)
+  - [C/C++](#)
   - ...
   - [HTML - HyperText Markup Language](#)
   - [CSS - Cascading Style Sheets](#)
