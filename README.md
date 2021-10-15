@@ -1,11 +1,11 @@
 # Guia de estudos para Web Hacking \[2021\]
 ![WEBHACKING](https://user-images.githubusercontent.com/86640585/137555285-2818548d-68f9-4658-b248-c3776367303a.png)
 
-O projeto surgiu quando os integrantes do grupo perceberam que a demanda por profissionais de segurança da informação está cada vez maior. Os conteúdos dispersos confundem estudantes que querem aprender ou, muitas vezes, por ser um ramo novo, há um desconhecimento da área.
+O projeto surgiu quando os integrantes do grupo perceberam que a demanda por profissionais de segurança da informação está cada vez maior e há uma falta enorme de profissionais qualificados. Os conteúdos dispersos confundem estudantes que querem aprender ou, muitas vezes, por ser um ramo novo, há um desconhecimento da área.
 
-Somente em 2021, ataques hackers já atingiram US$ 6 trilhões em prejuízos, dinheiro que poderia estar sendo usado em avanços tecnológicos, segurança ou investido em educação. Ataques hackers a hospitais, usinas nucleares e grandes estruturas podem acabar em tragédias, gerando perda de diversas vidas.
+Somente em 2021, ataques hackers já atingiram US$ 6 trilhões em prejuízos, dinheiro que poderia estar sendo investido em avanços tecnológicos, segurança ou educação. Ataques hackers a hospitais, usinas nucleares e grandes estruturas podem acabar em tragédias, gerando perda de vidas.
 
-O objetivo deste projeto é orientar o que os estudantes de segurança da informação em web hacking devem aprender, afim de ajudar a mitigar a falta desses profissionais no mercado.
+O objetivo deste projeto é orientar o que os estudantes interessados em web hacking devem aprender, afim de ajudar a mitigar a falta desses profissionais no mercado.
 
 O método empregado é criação de um website que faz a indexação de materiais didáticos, gratúitos e de qualidade, o qual os estudantes usarão como um guia em seus estudos de segurança da informação, sendo eles materiais em inglês e em português.
 
