@@ -13,7 +13,6 @@ O método empregado é criação de um website que faz a indexação de materiai
 
 O estudante e autor deste projeto, Benjamin Walter, segue esta metodologia. Atualmente ele trabalha na área de segurança de informação, encontrando e reportando, eticamente, vulnerabilidades para grandes empresas como Facebook, Shopify, Mercado Livre, CS Money, Avast, Google, Discord e outros programas de recompesas por vulnerabilidades privados.
 
-<script>alert(1)</script>
 
 
 ## Tabela de conteúdos
@@ -118,7 +117,8 @@ Real. Demora, exige dedicação, às vezes você não entende o que o instrutor 
 
 99% dos conteúdos estão em ingles. Não há como fugir. Seus reportes \[de vulnerabilidades\] serão, em suma, todos em inglês. Você não precisa ser fluente, mas um inglês tecnico dá conta legal. Se tu conseguir ler livros em ingles, melhor ainda.
 
-Tem um podcast que eu gosto muito, é o [Inglês do Zero](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zb3VuZGNsb3VkLmNvbS91c2Vycy9zb3VuZGNsb3VkOnVzZXJzOjMzNzMxMDg5My9zb3VuZHMucnNz/episode/dGFnOnNvdW5kY2xvdWQsMjAxMDp0cmFja3MvMTE0MjIzNDA1OQ)
+Tem um podcast que eu gosto muito, é o [Inglês do Zero](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zb3VuZGNsb3VkLmNvbS91c2Vycy9zb3VuZGNsb3VkOnVzZXJzOjMzNzMxMDg5My9zb3VuZHMucnNz/episode/dGFnOnNvdW5kY2xvdWQsMjAxMDp0cmFja3MvMTE0MjIzNDA1OQ). 
+Tem outro [podcast da BBC também](https://www.bbc.co.uk/programmes/p02pc9zn/episodes/downloads), porém é mais avançado
 Você também pode fazer um curso online gratúito. Inglês não é algo difícil de aprender, com o tempo você pega. Ouça música e veja análises de músicas em ingles. 
 Veja vídeos do youtube em inglês \[são muito bons\]
 Use o google translator sempre que necessário, não é vergonha nenhuma, ninguém é um dicionário.
