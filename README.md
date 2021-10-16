@@ -63,7 +63,6 @@ O estudante e autor do projeto, Benjamin Walter, segue essa metodologia e, atual
   - [Subdomain Takeover](#subdomain-takeover)
   - [OOB](#00b) <!--Out-Of-Band -->
   - [Insecurity Deserialization](#insecure-deserialization)
-  - ...
 - [Reconhecimento do alvo***](#)  <!-- Ver a just another recon guide -->
   - [Enumeração de subdomínos](#)
   - [Enumeração de portas](#)
@@ -296,6 +295,11 @@ Discord. Se você ainda não conhece essa plataforma (estilo rede social), está
 - Artigos no medium.com. Tente procurar pelas tags `hacking`, `hackerone`, `cybersec`.
 - Twitter. Pode parece meio plot twist, mas o twitter é uma fonte de informação muito boa quando se diz respeito à tecnologia. Muitas vulnerabilidades 0days são compartilhadas lá. Recomendo a criação de uma conta onde você fique cercado nesse universo da cybersec.
 - O youtube tem vários hackers muito bons também. Algumas lives lhe ajudarão bastante
+
+## Licença
+
+MIT License. [Leia mais](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt).
+
 
 ## Fontes
 
