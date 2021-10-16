@@ -23,30 +23,30 @@ O estudante e autor do projeto, Benjamin Walter, segue essa metodologia e, atual
   - [Ser hacker é ser criminoso?](#ser-hacker-é-ser-criminoso)
   - [Por que ser um hacker?](#por-que-ser-um-hacker)
     - [Curiosidade](#curiosidade)
-    - [diversão](#diversão)
+    - [Diversão](#diversão)
     - [Desafio](#desafio)
     - [Liberdade](#liberdade)
     - [Dinheiro](#dinheiro)
 - [O inglês é essencial!](#o-inglês-é-essencial)
 - [O que você precisa saber antes de começar no web hacking?](#o-que-você-precisa-saber-antes-de-começar-no-web-hacking)
   - [Lógica de programação](#lógica-de-programação)
-  - [OAC - Organização e arquitetura de computadores](#OAC---Organização-e-arquitetura-de-computadores)
-  - [C/C++](#)
+  - [OAC - Organização e arquitetura de computadores](#oac---organização-e-arquitetura-de-computadores)
+  - [C/C++](#cc)
   <!-- Devo incluir assembly? Acho que não, pois é web. OAC já vai dar -->
-  - [HTML - HyperText Markup Language](#)
-  - [CSS - Cascading Style Sheets](#)
-  - [Javascript](#)
-  - [PHP - Hypertext Preprocessor](#)
-  - [MySQL](#)
-  - [CORS](#)
-  - [Redes](#) 
-  - [Linux](#)
-- [Vulnerabilidades](#)
-  - [DOS](#)
-  - [SQL Injection](#)
-  - [XSS](#)
-  - [CSRF](#)
-  - [IDOR](#)
+  - [HTML - HyperText Markup Language](#html---hypertext-markup-language)
+  - [CSS - Cascading Style Sheets](#css---cascading-style-sheets)
+  - [Javascript](#javascript)
+  - [PHP - Hypertext Preprocessor](#php)
+  - [MySQL](#mysql)
+  - [CORS](#cors)
+  - [Redes](#redes) 
+  - [Linux](#linux)
+- [Vulnerabilidades](#vulnerabilidades)
+  - [DOS](#dos)
+  - [SQL Injection](#sql-injection)
+  - [XSS](#xss)
+  - [CSRF](#csrf)
+  - [IDOR](#idor)
   - ...
 - [Reconhecimento do alvo](#)
   - [Enumeração de subdomínos](#)
@@ -208,9 +208,7 @@ Basicamente ele vai armazenar informações para você de forma confiável, sabe
 [Ótimo curso, cobre o básico e intermediário](https://www.cursoemvideo.com/curso/mysql)
 [Curso completíssimo, recomendo este](http://www.bosontreinamentos.com.br/curso-completo-de-mysql/)
 
-
 ### Git e GitHub
-
 
 Não posso deixar de fora essas duas tecnologias incríveis, que serão de extrema importância na sua jornada de cyber security.
 [Curso de Git e GitHub](https://www.cursoemvideo.com/curso/curso-de-git-e-github/) Pode parecer bobo, mas vale a pena fazer. São ferramenta extremamete utilizadas e requisitadas no mercado.
