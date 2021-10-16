@@ -13,7 +13,7 @@ O método empregado é criação de um website que faz a indexação de materiai
 
 O estudante e autor deste projeto, Benjamin Walter, segue esta metodologia. Atualmente ele trabalha na área de segurança de informação, encontrando e reportando, eticamente, vulnerabilidades para grandes empresas como Facebook, Shopify, Mercado Livre, CS Money, Avast, Google, Discord e outros programas de recompesas por vulnerabilidades privados.
 
-
+<script>alert(1)</script>
 
 
 ## Tabela de conteúdos
