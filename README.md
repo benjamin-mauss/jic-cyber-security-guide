@@ -241,8 +241,7 @@ Aprenda bem os protocolos: HTTP, UDP E TCP. Não deixe de estudar o modelo OSI, 
 
 ### CORS
 
-Cross-Origin Resource Sharing (CORS)
-CORS tem a ver com o sistema de permissões que uma página do navegador tem de acessar páginas de outros domínios.
+Cross-Origin Resource Sharing (CORS), tem a ver com o sistema de permissões que uma página do navegador tem de acessar páginas de outros domínios.
 
 Recomendo a leitura da [documentação](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS)
 Não precisa se apegar a aprender muito bem isso. No momento em que você aprender sobre a vulnerabilidade XSS, você aprenderá na prática, porém é importantíssimo saber que existe.
