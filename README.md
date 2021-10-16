@@ -63,6 +63,7 @@ O estudante e autor do projeto, Benjamin Walter, segue essa metodologia e, atual
   - [Subdomain Takeover](#subdomain-takeover)
   - [OOB](#00b) <!--Out-Of-Band -->
   - [Insecurity Deserialization](#insecure-deserialization)
+  - [Request Smuggling](#)
 - [Reconhecimento do alvo***](#)  <!-- Ver a just another recon guide -->
   - [Enumeração de subdomínos](#)
   - [Enumeração de portas](#)
@@ -84,7 +85,7 @@ O estudante e autor do projeto, Benjamin Walter, segue essa metodologia e, atual
 - [Participe de comunidades de cyber segurança](#participe-de-comunidades-de-cyber-segurança) 
 - [Ebooks e livros que vão te ajudar](#ebooks-e-livros-que-vão-te-ajudar)
 - [Onde se informar sobre novas vulnerabilidades e se manter atualizado](#onde-se-informar-sobre-novas-vulnerabilidades-e-se-manter-atualizado)
-- [License](#license)
+- [Licença](#licença)
 - [Fontes](#fontes)
 
 
@@ -235,6 +236,8 @@ Recomendo também a leitura do E-book disponibilizado pelo site oficial do git.
 
 Redes é o estudo de como os computadores se comunicam, quais protocolos utilizam.
 Aprenda bem os protocolos: HTTP, UDP E TCP. Não deixe de estudar o modelo OSI, modelo TCP/IP e DNS.
+
+Aprenda sobre [load balance](https://www.eveo.com.br/blog/load-balance/), [reverse proxies](https://www.avast.com/pt-br/c-what-is-a-reverse-proxy), [firewall](https://www.cisco.com/c/pt_br/products/security/firewalls/what-is-a-firewall.html) <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Firewall.png"> e WAF.
 
 [Curso mais completinho](https://cursa.app/pt/curso/redes-com-boson)
 [Curso introdutório](https://www.cursoemvideo.com/curso/redes-de-computadores/)
