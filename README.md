@@ -38,12 +38,9 @@ O estudante e autor do projeto, Benjamin Walter, segue essa metodologia e, atual
   - [Javascript](#)
   - [PHP - Hypertext Preprocessor](#)
   - [MySQL](#)
+  - [CORS](#)
   - [Redes](#) 
-    - [Protocolo TCP/IP](#)
-    - [Protocolo HTTP](#)
-    - [Protocolo UDP](#)
   - [Linux](#)
-  - ...
 - [Vulnerabilidades](#)
   - [DOS](#)
   - [SQL Injection](#)
@@ -130,6 +127,112 @@ Existe outro podcast interessante, o [podcast da BBC](https://www.bbc.co.uk/prog
 Você também pode fazer um curso online gratuito. Inglês não é algo difícil de aprender, com o tempo você pega. Ouça e veja análises de músicas em inglês. 
 Veja vídeos do youtube em inglês \[são muito bons\]
 Use o google translator sempre que necessário, não é vergonha nenhuma, ninguém é um dicionário.
+
+## O que você precisa saber antes de começar no web hacking?
+
+Você precisa de um conhecimento aprofundado em como computadores funcionam, gerenciamento de memória, programação front-end e back-end, redes (como os computadores se comunicam) e protocolos.
+
+### Lógica de programação
+
+Lógica de programação é básico, o nome é auto explicativo. Algo que todo o programador já teve que estudar. Não pule esta etapa.
+[Curso completo](https://www.cursoemvideo.com/curso/curso-de-algoritmo/)
+
+### OAC - Organização e arquitetura de computadores
+
+Esta matéria vai te ensinar como computadores funcionam e um pouco da história destas máquinas (também é importante aprender)
+
+[Curso da UNIVESP](https://www.youtube.com/watch?v=HgA-oXOV7kI&list=PLxI8Can9yAHdG-xUDj6i-HGB7IAsAU-t1&ab_channel=UNIVESP)
+
+[Livro e-Tec Brasil](https://redeetec.mec.gov.br/images/stories/pdf/eixo_infor_comun/tec_inf/081112_org_arq_comp.pdf), super interessante para quem quer se aprofundar - e vale a pena se aprofundar
+
+### C/C++
+
+**C ou C++ vão te dar as bases da programação**. Não comece por Python, Javascript ou qualquer outra linguagem interpretada. Comece por C ou C++, linguagens bem documentadas, compiladas, com um nível de abstração menor.
+
+[Um curso bastante completo de C++](https://www.youtube.com/watch?v=nUQKr-ey86Y&list=PLx4x_zx8csUjczg1qPHavU1vw1IkBcm40&ab_channel=CFBCursos), um pouco antigo, porém não é problema.
+
+[Outro curso bastante completo de C](https://www.youtube.com/watch?v=FH7YrE0RjWE&list=PLesCEcYj003SwVdufCQM5FIbrOd0GG1M4&ab_channel=eXcript)
+
+[Outro curso bastante completo de C++](https://www.youtube.com/watch?v=5W9YsbqnX0U&list=PLesCEcYj003QTw6OhCOFb1Fdl8Uiqyrqo&ab_channel=eXcript)
+
+[Curso de C da bóson treinamento, mais básico, mas muito bem feito](https://www.youtube.com/playlist?list=PLucm8g_ezqNqzH7SM0XNjsp25AP0MN82R)
+
+
+### HTML - HyperText Markup Language
+
+HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. Essencial o estudo e conhecimento desta tecnologia.
+
+[Curso de html, css e js do curso em vídeo](https://www.cursoemvideo.com/curso/html5/)
+
+Curso de html5 e css, um pouco mais antigo: 
+[modulo 1](https://www.cursoemvideo.com/curso/html5-css3-modulo1/)
+[modulo 2](https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/)
+
+
+### CSS - Cascading Style Sheets
+
+A tecnologia deve ser estudada junto ao HTML. CSS é responsável por dar beleza à página, assim como a compatibilidade da página em telas com tamanhos diferentes. Os mesmo cursos de HTML compreendem o CSS;
+
+
+[Curso de html, css e js do curso em vídeo](https://www.cursoemvideo.com/curso/html5/)
+
+Curso de html e css, um pouco mais antigo: 
+[modulo 1](https://www.cursoemvideo.com/curso/html5-css3-modulo1/)
+[modulo 2](https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/)
+
+
+### Javascript
+
+A linguagem de programação usada em websites, interpretada pelo seu navegador. Essencial a aprendizagem (após o HTML).
+[Curso de javascript](https://www.cursoemvideo.com/curso/javascript/)
+
+### PHP
+
+Linguagem de programação interpretada. Normalmente é utilizada com back-end de websites. Recomendo que estude bastante esta parte web, faça vários projetos (CRUD, sistemas de autenticações envolvendo banco de dados mysql, sistemas de permissões, autenticação por sessões, autenticação por JWT, websockets, autenticação por oauth, integração com o google recaptcha, integração com sistemas de pagamentos como paypal, sistemas de chats, sistemas com verificações e envios de emails, integração com gravatar, e-commerces, etc.)
+
+Você provavelmente vai querer aprender frameworks como laravel e bootstrap.
+
+Neste momento, você já tem uma boa base em computadores (pelo curso de OAC), programação (por ter feito os cursos de C/C++ e lógica) e desenvolviment front-end (cursos de html, css e javascript), portanto, PHP não será nenhum bixo de 7 cabeças. Você deve fazer muitos projetos nesse estágio.
+
+DICA: crie um github, aprenda git e coloque seus projetos. Github, muitas vezes, vale mais do que (ou pode ser considerado) um currículo.
+
+[Curso de PHP Básico](https://www.cursoemvideo.com/curso/php-basico/)
+
+Recomendo a leitura da documentação para maior aprofundamento na linguagem.
+
+### MySQL
+
+O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares.
+Basicamente ele vai armazenar informações para você de forma confiável, sabendo que não haverão perdas de dados. É simples, você consegue aprender o básico em semanas. Vale muito a pena aprender sobre. Integre com PHP.
+
+[Ótimo curso, cobre o básico e intermediário](https://www.cursoemvideo.com/curso/mysql)
+[Curso completíssimo, recomendo este](http://www.bosontreinamentos.com.br/curso-completo-de-mysql/)
+
+
+### Git e GitHub
+
+
+Não posso deixar de fora essas duas tecnologias incríveis, que serão de extrema importância na sua jornada de cyber security.
+[Curso de Git e GitHub](https://www.cursoemvideo.com/curso/curso-de-git-e-github/) Pode parecer bobo, mas vale a pena fazer. São ferramenta extremamete utilizadas e requisitadas no mercado.
+
+Recomendo também a leitura do E-book disponibilizado pelo site oficial do git.
+
+### Redes
+
+Redes é o estudo de como os computadores se comunicam, quais protocolos utilizam.
+Aprenda bem os protocolos: HTTP, UDP E TCP. Não deixe de estudar o modelo OSI, modelo TCP/IP e DNS.
+
+[Curso mais completinho](https://cursa.app/pt/curso/redes-com-boson)
+[Curso introdutório](https://www.cursoemvideo.com/curso/redes-de-computadores/)
+
+
+### Linux
+
+Linux é um (core do) sistema operacional muito conhecido, open source. Recomendo a instalação de uma distro em dual boot na sua máquina, caso já não o tenha. Muitas ferramentas para pestest são feitas em Linux. Muitos servidores usam linux. Estude sobre linux :)
+
+[Curso introdutório, mais fraquinho, recomendo o de baixo](https://www.cursoemvideo.com/curso/linux/)
+[Curso de linux, ótimo, recomendo](https://www.youtube.com/playlist?list=PLucm8g_ezqNp92MmkF9p_cj4yhT-fCTl7)
+
 
 ## Participe de comunidades de cyber segurança
 
