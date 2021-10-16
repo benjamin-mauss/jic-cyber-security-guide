@@ -128,13 +128,13 @@ Use o google translator sempre que necessário, não é vergonha nenhuma, ningu�
 Discord.
 Se você ainda não conhece essa plataforma (estilo rede social), está perdendo.
 Você pode criar uma conta e participar de servidores focados em ethical hacking, sejam eles portugues ou ingles.
-- (Boitatech)[https://www.boitatech.com.br/] Gurizada BR de hacking, bem interessante. \[pt\]
-- (Public club)[https://discord.gg/2EDuJR3c4K] Tudo que é tipo de hacking ou assunto de tecnologia. Tem bastante gente crânio nesse server. \[en\]
-- (Intigriti)[https://discord.gg/vdFTaHgz2d] Web Hacking, tutoriais bons \[en\]
-- (Hackerone)[https://discord.gg/Qqfwmfuav7] Web Hacking, tutoriais bons \[en\]
-- (XSS Rat)[https://discord.gg/2EDuJR3c4K] Web Hacking e instruções para iniciantes \[en\]
-- (InsiderPHP)[https://discord.gg/2sFmxQwg4e] Web Hacking e instruções para iniciantes \[en\]
-- (Mente Binária)[https://menteb.in/discord] Mais focado em low level hacking, mas tem web hacking tbm \[pt\]
+- [Boitatech](https://www.boitatech.com.br/) Gurizada BR de hacking, bem interessante. \[pt\]
+- [Public club](https://discord.gg/2EDuJR3c4K) Tudo que é tipo de hacking ou assunto de tecnologia. Tem bastante gente crânio nesse server. \[en\]
+- [Intigriti](https://discord.gg/vdFTaHgz2d) Web Hacking, tutoriais bons \[en\]
+- [Hackerone](https://discord.gg/Qqfwmfuav7) Web Hacking, tutoriais bons \[en\]
+- [XSS Rat](https://discord.gg/2EDuJR3c4K) Web Hacking e instruções para iniciantes \[en\]
+- [InsiderPHP](https://discord.gg/2sFmxQwg4e) Web Hacking e instruções para iniciantes \[en\]
+- [Mente Binária](https://menteb.in/discord) Mais focado em low level hacking, mas tem web hacking tbm \[pt\]
 
 
 
