@@ -3,15 +3,15 @@
 
 ## Apresentação
 
-O projeto surgiu quando os integrantes do grupo perceberam que a demanda por profissionais de segurança da informação está cada vez maior e há uma falta enorme de profissionais qualificados. Os conteúdos dispersos confundem estudantes que querem aprender ou, muitas vezes, por ser um ramo novo, há um desconhecimento da área.
+Sabe-se que a demanda por profissionais de segurança da informação está cada vez maior e que há a falta de profissionais qualificados. Os conteúdos dispersos confundem estudantes que querem aprender ou, muitas vezes, por ser um ramo novo, há um desconhecimento da área.
 
 Somente em 2021, ataques hackers já atingiram US$ 6 trilhões em prejuízos, dinheiro que poderia estar sendo investido em avanços tecnológicos, segurança ou educação. Ataques hackers a hospitais, usinas nucleares e grandes estruturas podem acabar em tragédias, gerando perda de vidas.
 
-O objetivo deste projeto é orientar o que os estudantes interessados em web hacking devem aprender, afim de ajudar a mitigar a falta desses profissionais no mercado.
+Assim, o objetivo desse projeto é orientar o que os estudantes interessados em web hacking devem aprender, a fim de ajudar a mitigar a falta desses profissionais no mercado.
 
-O método empregado é criação de um website que faz a indexação de materiais didáticos, gratúitos e de qualidade sobre web hacking, o qual os estudantes usarão como um guia em seus estudos de segurança da informação, sendo eles materiais em inglês e em português.
+O método empregado é a criação de um website que faz a indexação de materiais didáticos, gratuitos e de qualidade sobre web hacking, o qual os estudantes usarão como um guia em seus estudos de segurança da informação, sendo eles materiais em inglês e em português.
 
-O estudante e autor deste projeto, Benjamin Walter, segue esta metodologia. Atualmente ele trabalha na área de segurança de informação, encontrando e reportando, eticamente, vulnerabilidades para grandes empresas como Facebook, Shopify, Mercado Livre, CS Money, Avast, Google, Discord e outros programas de recompesas por vulnerabilidades privados.
+O estudante e autor do projeto, Benjamin Walter, segue essa metodologia e, atualmente, trabalha na área de segurança de informação, encontrando e reportando, eticamente, vulnerabilidades para grandes empresas como Facebook, Shopify, Mercado Livre, CS Money, Avast, Google, Discord e outros programas de recompensas por vulnerabilidades (privados).
 
 
 
@@ -19,8 +19,14 @@ O estudante e autor deste projeto, Benjamin Walter, segue esta metodologia. Atua
 - [Apresentação](#apresentação)
 - [Tabela de conteúdos](#tabela-de-conteúdos)
 - [Introdução](#introdução)
-  - [O que é web hacking?](#o-que-é-web-hacking)
-  - [Por quer ser um web hacker?](#por-quer-ser-um-web-hacker)
+  - [O que é web hacking?](#o-que-é-web-hacking) 
+  - [Ser hacker é ser criminoso?](#ser-hacker-é-ser-criminoso)
+  - [Por que ser um hacker?](#por-que-ser-um-hacker)
+    - [Curiosidade](curiosidade)
+    - [diversão](diversão)
+    - [Desafio](desafio)
+    - [Liberdade](liberdade)
+    - [Dinheiro](dinheiro)
 - [O inglês é essencial!](#o-inglês-é-essencial)
 - [O que você precisa saber antes de começar no web hacking?](#o-que-você-precisa-saber-antes-de-começar-no-web-hacking)
   - [Lógica de programação](#lógica-de-programação)
