@@ -41,29 +41,31 @@ O estudante e autor do projeto, Benjamin Walter, segue essa metodologia e, atual
   - [CORS](#cors)
   - [Redes](#redes) 
   - [Linux](#linux)
-- [Vulnerabilidades](#vulnerabilidades)
+- [Vulnerabilidades***](#vulnerabilidades)  <!-- Consultar cursos. Pesquisar na web. -->
   - [DOS](#dos)
   - [SQL Injection](#sql-injection)
   - [XSS](#xss)
   - [CSRF](#csrf)
   - [IDOR](#idor)
+  - [Race Condition](#race-condition)
+  - []()
   - ...
-- [Reconhecimento do alvo](#)
+- [Reconhecimento do alvo***](#)  <!-- Ver a just another recon guide -->
   - [Enumeração de subdomínos](#)
   - [Enumeração de portas](#)
   - [Google dork](#)
   - [Crawling](#)
-- [Ferramentas](#)
+- [Ferramentas***](#) <!-- Dar um ls na minhas tools. Pesquisar por tools usadas no pentest -->
   - [Sqlmap](#)
   - [amass](#)
   - [nmap](#)
-- [Bug bounty](#)
+- [Bug bounty***](#)
   - [Como participar](#)
   - [Plataformas](#)
-- [CTF](#)
+- [CTF***](#)
   - [Como participar](#)
   - [Plataformas](#)
-- [Pentest](#)
+- [Pentest***](#)
   - [Como começar no pentest](#)
   - [Certificações](#)
 - [Participe de comunidades de cyber segurança](#participe-de-comunidades-de-cyber-segurança) 
@@ -272,3 +274,9 @@ Discord. Se você ainda não conhece essa plataforma (estilo rede social), está
 - [Dados de ataques hackers](https://olhardigital.com.br/2021/09/12/seguranca/brasil-e-o-5o-pais-em-ataques-de-hackers-contra-empresas)
 - [hacker](https://br.malwarebytes.com/hacker/)
 - [razões para hackear](https://www.tecmundo.com.br/seguranca/10731-7-razoes-para-hackear.htm)
+
+
+<style>
+#apresentação:{
+  }
+</style>
