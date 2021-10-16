@@ -22,11 +22,11 @@ O estudante e autor do projeto, Benjamin Walter, segue essa metodologia e, atual
   - [O que é web hacking?](#o-que-é-web-hacking) 
   - [Ser hacker é ser criminoso?](#ser-hacker-é-ser-criminoso)
   - [Por que ser um hacker?](#por-que-ser-um-hacker)
-    - [Curiosidade](curiosidade)
-    - [diversão](diversão)
-    - [Desafio](desafio)
-    - [Liberdade](liberdade)
-    - [Dinheiro](dinheiro)
+    - [Curiosidade](#curiosidade)
+    - [diversão](#diversão)
+    - [Desafio](#desafio)
+    - [Liberdade](#liberdade)
+    - [Dinheiro](#dinheiro)
 - [O inglês é essencial!](#o-inglês-é-essencial)
 - [O que você precisa saber antes de começar no web hacking?](#o-que-você-precisa-saber-antes-de-começar-no-web-hacking)
   - [Lógica de programação](#lógica-de-programação)
@@ -69,8 +69,13 @@ O estudante e autor do projeto, Benjamin Walter, segue essa metodologia e, atual
 - [Pentest](#)
   - [Como começar no pentest](#)
   - [Certificações](#)
+- [Participe de comunidades de cyber segurança](#participe-de-comunidades-de-cyber-segurança) 
+- [Ebooks e livros que vão te ajudar](#ebooks-e-livros-que-vão-te-ajudar)
+- [Onde se informar sobre novas vulnerabilidades e se manter atualizado](#onde-se-informar-sobre-novas-vulnerabilidades-e-se-manter-atualizado)
 - [License](#license)
 - [Fontes](#fontes)
+
+
 
 ## Introdução
 
@@ -141,7 +146,6 @@ Você pode criar uma conta e participar de servidores focados em ethical hacking
 - [XSS Rat](https://discord.gg/2EDuJR3c4K) Web Hacking e instruções para iniciantes \[en\]
 - [InsiderPHP](https://discord.gg/2sFmxQwg4e) Web Hacking e instruções para iniciantes \[en\]
 - [Mente Binária](https://menteb.in/discord) Mais focado em low level hacking, mas tem web hacking tbm \[pt\]
-
 
 
 ## Ebooks e livros que vão te ajudar
