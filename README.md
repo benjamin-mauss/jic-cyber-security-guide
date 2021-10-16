@@ -49,8 +49,20 @@ O estudante e autor do projeto, Benjamin Walter, segue essa metodologia e, atual
   - [XSS](#xss)
   - [CSRF](#csrf)
   - [IDOR](#idor)
+  - [SSRF](#ssrf)
+  - [XXE](#xxe)
   - [Race Condition](#race-condition)
-  - []()
+  - [Git Exposed](#git-exposed)
+  - [CRLF](#crlf)
+  - [LFI](#lfi)
+  - [RFI](#rfi)
+  - [Open Redirect](#open-redirect)
+  - [NoSQL Injection](#nosql-injection)
+  - [Unrestricted File Upload](#unrestricted-file-upload)
+  - [Dependency Confusion](#dependency-confusion)
+  - [Subdomain Takeover](#subdomain-takeover)
+  - [OOB](#00b) <!--Out-Of-Band -->
+  - [Insecurity Deserialization](#insecure-deserialization)
   - ...
 - [Reconhecimento do alvo***](#)  <!-- Ver a just another recon guide -->
   - [Enumeração de subdomínos](#)
