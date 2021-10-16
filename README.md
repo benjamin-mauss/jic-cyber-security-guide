@@ -145,7 +145,7 @@ Discord. Se você ainda não conhece essa plataforma (estilo rede social), está
 
 ## E-books e livros que vão te ajudar
 
-- E-book grátis da [hackerone] (https://www.hackerone.com/ethical-hacker/hack-learn-earn-free-e-book): 
+- E-book grátis da [hackerone](https://www.hackerone.com/ethical-hacker/hack-learn-earn-free-e-book): 
 - Bug Bounty Bootcamp by Vickie Li
 - Bug Hunter Diary
 - Hands-On Bug Hunting for Penetration Testers 1st Edition
