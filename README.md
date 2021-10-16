@@ -69,10 +69,11 @@ O estudante e autor do projeto, Benjamin Walter, segue essa metodologia e, atual
   - [Enumeração de portas](#)
   - [Google dork](#)
   - [Crawling](#)
-- [Ferramentas***](#) <!-- Dar um ls na minhas tools. Pesquisar por tools usadas no pentest -->
-  - [Sqlmap](#)
-  - [amass](#)
-  - [nmap](#)
+- [:wrench: Ferramentas***](#) <!-- Dar um ls na minhas tools. Pesquisar por tools usadas no pentest -->
+  - [:wrench: BurpSuite](#)
+  - [:wrench: Sqlmap](#)
+  - [:wrench: amass](#)
+  - [:wrench: nmap](#)
 - [Bug bounty***](#)
   - [Como participar](#)
   - [Plataformas](#)
