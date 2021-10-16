@@ -312,7 +312,7 @@ MIT License. [Leia mais](https://github.com/git/git-scm.com/blob/main/MIT-LICENS
 
 
 <style>
-#apresentation_text p {
+p {
   text-indent: 2em;
   text-align: justify;
   }
