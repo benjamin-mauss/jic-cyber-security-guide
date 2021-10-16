@@ -6,13 +6,13 @@
 <div id="apresentation_text">
   <p>
 Sabe-se que a demanda por profissionais de segurança da informação está cada vez maior e que há a falta de profissionais qualificados. Os conteúdos dispersos confundem estudantes que querem aprender ou, muitas vezes, por ser um ramo novo, há um desconhecimento da área.
-</p><br><p>
+</p><p>
 Somente em 2021, ataques hackers já atingiram US$ 6 trilhões em prejuízos, dinheiro que poderia estar sendo investido em avanços tecnológicos, segurança ou educação. Ataques hackers a hospitais, usinas nucleares e grandes estruturas podem acabar em tragédias, gerando perda de vidas.
-</p><br><p>
+</p><p>
 Assim, o objetivo desse projeto é orientar o que os estudantes interessados em web hacking devem aprender, a fim de ajudar a mitigar a falta desses profissionais no mercado.
-</p><br><p>
+</p><p>
 O método empregado é a criação de um website que faz a indexação de materiais didáticos, gratuitos e de qualidade sobre web hacking, o qual os estudantes usarão como um guia em seus estudos de segurança da informação, sendo eles materiais em inglês e em português.
-</p><br><p>
+</p><p>
 O estudante e autor do projeto, Benjamin Walter, segue essa metodologia e, atualmente, trabalha na área de segurança de informação, encontrando e reportando, eticamente, vulnerabilidades para grandes empresas como Facebook, Shopify, Mercado Livre, CS Money, Avast, Google, Discord e outros programas de recompensas por vulnerabilidades (privados).
 </p></div>
 
