@@ -34,7 +34,6 @@ O estudante e autor do projeto, Benjamin Walter, segue essa metodologia e, atual
   - [Lógica de programação](#lógica-de-programação)
   - [OAC - Organização e arquitetura de computadores](#oac---organização-e-arquitetura-de-computadores)
   - [C/C++](#cc)
-  <!-- Devo incluir assembly? Acho que não, pois é web. OAC já vai dar -->
   - [HTML - HyperText Markup Language](#html---hypertext-markup-language)
   - [CSS - Cascading Style Sheets](#css---cascading-style-sheets)
   - [Javascript](#javascript)
@@ -43,7 +42,8 @@ O estudante e autor do projeto, Benjamin Walter, segue essa metodologia e, atual
   - [CORS](#cors)
   - [Redes](#redes)
   - [Linux](#linux)
-- [Vulnerabilidades***](#vulnerabilidades)  <!-- Consultar cursos. Pesquisar na web. -->
+  - [Python ou BASH](#python-ou-bash)
+- [Vulnerabilidades](#vulnerabilidades)
   - [DOS](#dos)
   - [SQL Injection](#sql-injection)
   - [XSS](#xss)
@@ -54,17 +54,16 @@ O estudante e autor do projeto, Benjamin Walter, segue essa metodologia e, atual
   - [Race Condition](#race-condition)
   - [Git Exposed](#git-exposed)
   - [CRLF](#crlf)
-  - [LFI](#lfi)
-  - [RFI](#rfi)
+  - [LFI e RFI](#lfi-e-rfi)
   - [Open Redirect](#open-redirect)
   - [NoSQL Injection](#nosql-injection)
   - [Unrestricted File Upload](#unrestricted-file-upload)
   - [Dependency Confusion](#dependency-confusion)
   - [Subdomain Takeover](#subdomain-takeover)
-  - [Clickjacking](#)
-  - [Cache_Poisoning](#)
-  - [Insecurity Deserialization](#insecure-deserialization)
-  - [Request Smuggling](#)
+  - [Insecurity Deserialization](#insecurity-deserialization)
+  - [Request Smuggling](#request-smuggling)
+  - [Clickjacking](#clickjacking)
+  - [Cache Poisoning](#cache-poisoning)
 - [Reconhecimento do alvo***](#)  <!-- Ver a just another recon guide -->
   - [Enumeração de subdomínos](#)
   - [Enumeração de portas](#)
@@ -84,13 +83,14 @@ O estudante e autor do projeto, Benjamin Walter, segue essa metodologia e, atual
 - [Pentest***](#)
   - [Como começar no pentest](#)
   - [Certificações](#)
-- [Participe de comunidades de cyber segurança](#participe-de-comunidades-de-cyber-segurança) 
+- [Participe de comunidades de cyber segurança](#participe-de-comunidades-de-cyber-segurança)
 - [Ebooks e livros que vão te ajudar](#ebooks-e-livros-que-vão-te-ajudar)
-- [Onde se informar sobre novas vulnerabilidades e se manter atualizado](#onde-se-informar-sobre-novas-vulnerabilidades-e-se-manter-atualizado)
+- [A estrada não acaba aqui](#a-estrada-não-acaba-aqui)
+  - [Outras falhas/vulnerabilidades que você pode se aprofundar](#outras-falhasvulnerabilidades-que-você-pode-se-aprofundar)
+  - [Aprenda outras tecnologias](#aprenda-outras-tecnologias)
+  - [Onde se informar sobre novas vulnerabilidades e se manter atualizado](#onde-se-informar-sobre-novas-vulnerabilidades-e-se-manter-atualizado)
 - [Licença](#licença)
 - [Fontes](#fontes)
-
-
 
 ## Introdução
 
@@ -168,7 +168,7 @@ Use o google translator sempre que necessário, não é vergonha nenhuma, ningu�
 
 ## O que você precisa saber antes de começar no web hacking?
 
-<img src="https://c.pxhere.com/images/85/0c/39bd0ae20c1ddfd6a45d64a6022f-1587825.jpg!d" srcset="https://c.pxhere.com/images/85/0c/39bd0ae20c1ddfd6a45d64a6022f-1587825.jpg!d" alt="graduação, livro, Educação, estudando, escola, estude, aprender, conhecimento, Aprendendo, universidade, classe, Criatividade, chapéu, Acadêmico, boné, Ferramentas, equipamento, Sala de aula, ensino, produtos, diagrama, design gráfico, desenhar, ilustração, Clip art, gráficos, arte, Banco de imagens In PxHere">
+<img src="https://c.pxhere.com/images/85/0c/39bd0ae20c1ddfd6a45d64a6022f-1587825.jpg!d">
 
 Você precisa de um conhecimento aprofundado em como computadores funcionam, gerenciamento de memória, programação front-end e back-end, redes (como os computadores se comunicam) e protocolos.
 
@@ -407,7 +407,7 @@ Uma 'condição de corrida' (Race Condition) é uma falha que produz um resultad
 
 Git exposed ou git exposto, em português, é uma falha que, caso a pasta .git esteja exposta, é possível que um atacante tenha acesso ao código fonte da aplicação.
 
-[Artigo medium. em português](https://gabrieldkgh.medium.com/git-exposed-encontrando-manualmente-e-automatizado-como-explorar-como-arrumar-a-falha-eaa3ee98fe8c)
+[Artigo medium. em português](https://gabrieldkgh.medium.com/git-exposed-encontrando-manualmente-e-automatizado-como-explorar-como-arrumar-a-falha-eaa3ee98fe8c)<br>
 [Video, em portuegês, de exploração da vulnerabilidade, em um CTF](https://www.youtube.com/watch?v=k_wLZ-pMTOM&ab_channel=GuiaAn%C3%B4nimaCTF)
 [Artigo código fonte exposto](https://blog.devgenius.io/source-code-disclosure-via-exposed-git-folder-24993c7561f1)
 
@@ -421,8 +421,8 @@ Um ataque de injeção de CRLF ocorre, geralmente, quando um usuário consegue e
 
 Existem mais dois usos comuns de ataques de injeção CRLF: envenenamento de log e divisão de resposta HTTP.
 
-[owasp.org](https://owasp.org/www-community/vulnerabilities/CRLF_Injection)
-[acunetix.com](https://www.acunetix.com/websitesecurity/crlf-injection/)
+[owasp.org](https://owasp.org/www-community/vulnerabilities/CRLF_Injection)<br>
+[acunetix.com](https://www.acunetix.com/websitesecurity/crlf-injection/)<br>
 [greysec.net](https://greysec.net/showthread.php?tid=7022)
 
 ### LFI e RFI
@@ -475,9 +475,9 @@ Na verdade, existem duas variações do problemas. O primeiro é com os metadado
 A outra variação do problema é com o tamanho ou conteúdo do arquivo. A gama de problemas aqui depende inteiramente da finalidade do arquivo.
 
 
-[owasp.org](https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload)
-[netsparker.com](https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/unrestricted-file-upload/)
-[acunetix.com](https://www.acunetix.com/vulnerabilities/web/unrestricted-file-upload/)
+[owasp.org](https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload)<br>
+[netsparker.com](https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/unrestricted-file-upload/)<br>
+[acunetix.com](https://www.acunetix.com/vulnerabilities/web/unrestricted-file-upload/)<br>
 [knowledge-base.secureflag.com](https://knowledge-base.secureflag.com/vulnerabilities/unrestricted_file_upload/unrestricted_file_upload_vulnerability.html)
 
 ### Dependency Confusion
@@ -510,8 +510,8 @@ As tomadas de controle de subdomínio (Subdomain Takeover) são uma ameaça comu
 
 A desserialização insegura (Insecurity Deserialization) ocorre quando os dados controláveis pelo usuário são desserializados por um site. Isso permite que um invasor manipule objetos serializados para passar dados prejudiciais ao código do aplicativo.
 
-[portswigger.net](https://portswigger.net/web-security/deserialization)
-[acunetix.com](https://www.acunetix.com/blog/articles/what-is-insecure-deserialization/)
+[portswigger.net](https://portswigger.net/web-security/deserialization)<br>
+[acunetix.com](https://www.acunetix.com/blog/articles/what-is-insecure-deserialization/)<br>
 [owasp.org](https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization)
 
 ### Request Smuggling
@@ -522,7 +522,7 @@ O contrabando de solicitações HTTP (Request Smuggling) é uma técnica para in
 
 <img src="http-request-smuggling.svg">
 
-[portswigger.net](https://portswigger.net/web-security/request-smuggling)
+[portswigger.net](https://portswigger.net/web-security/request-smuggling)<br>
 [owasp.org testando request smuggling](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/15-Testing_for_HTTP_Splitting_Smuggling)
 
 ### Clickjacking
@@ -535,7 +535,7 @@ Usando uma técnica semelhante, os pressionamentos de teclas também podem ser s
 
 <img src="clickjacking-infographic.svg">
 
-[owasp.org](https://owasp.org/www-community/attacks/Clickjacking)
+[owasp.org](https://owasp.org/www-community/attacks/Clickjacking)<br>
 [portswigger.net](https://portswigger.net/web-security/clickjacking)
 
 ### Cache Poisoning
@@ -549,7 +549,7 @@ Fundamentalmente, o envenenamento do cache da web envolve duas fases. Primeiro, 
 Um cache da web envenenado pode ser um meio devastador de distribuir vários ataques diferentes, explorando vulnerabilidades como XSS, injeção de JavaScript, Open Redirect e assim por diante.
 
 <img src="caching.svg">
-[owasp.org](https://owasp.org/www-community/attacks/Cache_Poisoning)
+[owasp.org](https://owasp.org/www-community/attacks/Cache_Poisoning)<br>
 [portswigger.net](https://portswigger.net/web-security/web-cache-poisoning)
 
 <!-- Adicionar python ou bash aos pré requisitos -->
@@ -578,15 +578,6 @@ Discord. Se você ainda não conhece essa plataforma (estilo rede social), está
 - Hands-On Bug Hunting for Penetration Testers 1st Edition
 - The Web Application Hacker's Handbook [Este é realmente muito bom]
 
-## Onde se informar sobre novas vulnerabilidades e se manter atualizado
-
-<img src="https://cdn.pixabay.com/photo/2020/12/25/09/57/update-5859000_1280.jpg">
-
-- Hackctivity da hackerone, bugcrowd, YesWeHack, etc., todas essas plataformas de reportes de vulnerabilidades
-- Artigos no medium.com. Tente procurar pelas tags `hacking`, `hackerone`, `cybersec`.
-- Twitter. Pode parece meio plot twist, mas o twitter é uma fonte de informação muito boa quando se diz respeito à tecnologia. Muitas vulnerabilidades 0days são compartilhadas lá. Recomendo a criação de uma conta onde você fique cercado nesse universo da cybersec.
-- O youtube tem vários hackers muito bons também. Algumas lives lhe ajudarão bastante
-
 ## A estrada não acaba aqui
 
 <img src="https://p1.pxfuel.com/preview/1017/986/480/highway-road-pavement-desert.jpg">
@@ -609,6 +600,15 @@ Não. Não acaba mesmo. Todos os dias, dezenas que vulnerabilidades estão sendo
 - SSTI (Server side template injection)
 - PP (Prototype pollution)
 - RCE (Remote code execution)
+
+### Onde se informar sobre novas vulnerabilidades e se manter atualizado
+
+<img src="https://cdn.pixabay.com/photo/2020/12/25/09/57/update-5859000_1280.jpg">
+
+- Hackctivity da hackerone, bugcrowd, YesWeHack, etc., todas essas plataformas de reportes de vulnerabilidades
+- Artigos no medium.com. Tente procurar pelas tags `hacking`, `hackerone`, `cybersec`.
+- Twitter. Pode parece meio plot twist, mas o twitter é uma fonte de informação muito boa quando se diz respeito à tecnologia. Muitas vulnerabilidades 0days são compartilhadas lá. Recomendo a criação de uma conta onde você fique cercado nesse universo da cybersec.
+- O youtube tem vários hackers muito bons também. Algumas lives lhe ajudarão bastante
 
 
 ## Licença
