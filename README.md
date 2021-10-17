@@ -146,7 +146,7 @@ Trabalhar como pentester ou bug bounty hunter pode gerar uma grana legal. Fazer 
 
 <img src="https://cdn.pixabay.com/photo/2018/01/19/07/57/shaking-hands-3091906_1280.jpg">
 
-Uma falha de segurança pode ser catastrófica para uma empresa. Uma empresa só abre bug bounty público/privado quando tem certeza de que não consegue encontrar nenhuma vulnerabilidade em seu sistema, depois de pagar por pentester e ter analistas de segurança da informação analisando os códigos. O pentest ocorre antes do bug bounty. As empresas pagam para que pentester testem a aplicação delas, à procura de vulnerabilidades.
+Uma falha de segurança pode ser catastrófica para uma empresa. Uma empresa só abre bug bounty público/privado quando tem certeza de que não consegue encontrar nenhuma vulnerabilidade em seu sistema, depois de pagar por pentesters e ter vários analistas de segurança da informação analisando os códigos fontes. O pentest ocorre antes do bug bounty. As empresas pagam para que pentester testem a aplicação delas, à procura de vulnerabilidades.
 
 ### Você não precisa ser um gênio para aprender hacking
 
