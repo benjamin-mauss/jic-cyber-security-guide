@@ -17,10 +17,11 @@ O estudante e autor do projeto, Benjamin Walter, segue essa metodologia e, atual
 </p></div>
 
 ## Tabela de conteúdos
+
 - [Apresentação](#apresentação)
 - [Tabela de conteúdos](#tabela-de-conteúdos)
 - [Introdução](#introdução)
-  - [O que é web hacking?](#o-que-é-web-hacking) 
+  - [O que é web hacking?](#o-que-é-web-hacking)
   - [Ser hacker é ser criminoso?](#ser-hacker-é-ser-criminoso)
   - [Por que ser um hacker?](#por-que-ser-um-hacker)
     - [Curiosidade](#curiosidade)
@@ -40,7 +41,7 @@ O estudante e autor do projeto, Benjamin Walter, segue essa metodologia e, atual
   - [PHP - Hypertext Preprocessor](#php)
   - [MySQL](#mysql)
   - [CORS](#cors)
-  - [Redes](#redes) 
+  - [Redes](#redes)
   - [Linux](#linux)
 - [Vulnerabilidades***](#vulnerabilidades)  <!-- Consultar cursos. Pesquisar na web. -->
   - [DOS](#dos)
@@ -62,7 +63,6 @@ O estudante e autor do projeto, Benjamin Walter, segue essa metodologia e, atual
   - [Subdomain Takeover](#subdomain-takeover)
   - [Clickjacking](#)
   - [Cache_Poisoning](#)
-  - [OOB](#00b) <!--Out-Of-Band -->
   - [Insecurity Deserialization](#insecure-deserialization)
   - [Request Smuggling](#)
 - [Reconhecimento do alvo***](#)  <!-- Ver a just another recon guide -->
@@ -154,15 +154,15 @@ Uma falha de segurança pode ser catastrófica para uma empresa. Uma empresa só
 
 Na real, isso demora e exige dedicação. Às vezes, você não entende o que o instrutor está falando e tem que pesquisar sobre um assunto, então descobre que tem ainda mais para aprender.
 
-## O inglês é essencial!
+## O inglês é essencial
 
 <img src="https://p1.pxfuel.com/preview/789/890/518/education-photo-language-learning-specs-english-hungarian.jpg">
 
 99% dos conteúdos estão em inglês. Não há como fugir. Seus reportes (de vulnerabilidades) serão, em suma, todos em inglês. Você não precisa ser fluente, mas um inglês técnico dá conta legal. Se você conseguir ler livros em inglês, melhor ainda.
 
-Tem um podcast de que eu gosto muito, é o [Inglês do Zero](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zb3VuZGNsb3VkLmNvbS91c2Vycy9zb3VuZGNsb3VkOnVzZXJzOjMzNzMxMDg5My9zb3VuZHMucnNz/episode/dGFnOnNvdW5kY2xvdWQsMjAxMDp0cmFja3MvMTE0MjIzNDA1OQ). 
+Tem um podcast de que eu gosto muito, é o [Inglês do Zero](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zb3VuZGNsb3VkLmNvbS91c2Vycy9zb3VuZGNsb3VkOnVzZXJzOjMzNzMxMDg5My9zb3VuZHMucnNz/episode/dGFnOnNvdW5kY2xvdWQsMjAxMDp0cmFja3MvMTE0MjIzNDA1OQ).
 Existe outro podcast interessante, o [podcast da BBC](https://www.bbc.co.uk/programmes/p02pc9zn/episodes/downloads), porém é mais avançado.
-Você também pode fazer um curso online gratuito. Inglês não é algo difícil de aprender, com o tempo você pega. Ouça e veja análises de músicas em inglês. 
+Você também pode fazer um curso online gratuito. Inglês não é algo difícil de aprender, com o tempo você pega. Ouça e veja análises de músicas em inglês.
 Veja vídeos do youtube em inglês \[são muito bons\]
 Use o google translator sempre que necessário, não é vergonha nenhuma, ninguém é um dicionário.
 
@@ -307,7 +307,6 @@ Linux é um (core do) sistema operacional muito conhecido, open source. Recomend
 [Curso introdutório, mais fraquinho, recomendo o de baixo](https://www.cursoemvideo.com/curso/linux/)
 [Curso de linux, ótimo, recomendo](https://www.youtube.com/playlist?list=PLucm8g_ezqNp92MmkF9p_cj4yhT-fCTl7)
 
-
 ## Vulnerabilidades
 
 <img src="https://c.pxhere.com/photos/39/f0/hacking_hacker_computer_internet_security_data_technology_network-488123.jpg!d" srcset="https://c.pxhere.com/photos/39/f0/hacking_hacker_computer_internet_security_data_technology_network-488123.jpg!d" alt="computador, tecnologia, número, Internet, linha, biologia, segurança, Fonte, texto, diagrama, espião, privacidade, Pc, crime, protecção, senha, rede, apresentação, código, Captura de tela, dados, Corte, Hacker, Hacking, Cyber, Spyware, Firewall, Segurança informática, segurança de dados, Banco de imagens In PxHere">
@@ -334,7 +333,6 @@ A injeção de SQL (SQL Injection) é uma vulnerabilidade de segurança da web q
 
 [owasp.org](https://owasp.org/www-community/attacks/SQL_Injection)<br>
 [portswigger.net](https://portswigger.net/web-security/sql-injection)
-
 
 ### XSS
 
@@ -508,7 +506,7 @@ As tomadas de controle de subdomínio (Subdomain Takeover) são uma ameaça comu
 
 ### Insecurity Deserialization
 
-<img src="https://portswigger.net/web-security/images/deserialization-infographic.jpg">
+<img src="deserialization-infographic.jpg">
 
 A desserialização insegura (Insecurity Deserialization) ocorre quando os dados controláveis pelo usuário são desserializados por um site. Isso permite que um invasor manipule objetos serializados para passar dados prejudiciais ao código do aplicativo.
 
@@ -542,7 +540,7 @@ Usando uma técnica semelhante, os pressionamentos de teclas também podem ser s
 
 ### Cache Poisoning
 
-<img src="https://portswigger.net/cms/images/21/ed/0358ad020c37-article-cache-poisoning-article.png">
+<img src="0358ad020c37-article-cache-poisoning-article.png">
 
 O envenenamento do cache da Web (Web Cache Poisoning) é uma técnica avançada pela qual um invasor explora o comportamento de um servidor da Web e do cache para que uma resposta HTTP prejudicial seja servida a outros usuários.
 
