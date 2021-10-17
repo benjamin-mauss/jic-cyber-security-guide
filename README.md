@@ -126,7 +126,7 @@ Outro fator que conta muito para o hacker é a diversão. Antes de qualquer cois
 
 #### Desafio
 
-<img src="2017-05-07-23-29-26-900x600.jpg">
+<img src="2017-05-07-23-29-26-900x600.jpg" width="100%">
 
 O hacker precisa se sentir desafiado, instigado a prosseguir com a ação. Muitas vezes essas pessoas agem sem motivação, apenas para perceberem que algo é possível e que eles conseguem fazer. Hackers gostam de resolver problemas. Quanto mais complexos esses problemas, melhor. Diga a um hacker que algo é impossível de ser feito e ele vai tentar até conseguir.
 
