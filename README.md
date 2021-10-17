@@ -435,10 +435,10 @@ As vulnerabilidades de LFI permitem que um invasor leia (e às vezes execute) ar
 
 Vulnerabilidades de RFI são mais fáceis de explorar, mas menos comuns. Em vez de acessar um arquivo na máquina local, o invasor pode executar o código hospedado em outro website.
 
-[offensive-security.com | FILE INCLUSION VULNERABILITIES](https://www.offensive-security.com/metasploit-unleashed/file-inclusion-vulnerabilities/)<br>
-[neuralegion.com | Local File Inclusion (LFI): Understanding and Preventing LFI Attacks](https://www.neuralegion.com/blog/local-file-inclusion-lfi/)<br>
-[netsparker.com | Local File Inclusion (LFI)](https://www.netsparker.com/blog/web-security/local-file-inclusion-vulnerability/)
-[imperva.com | Remote file inclusion (RFI)](https://www.imperva.com/learn/application-security/rfi-remote-file-inclusion/)
+[offensive-security.com FILE INCLUSION VULNERABILITIES](https://www.offensive-security.com/metasploit-unleashed/file-inclusion-vulnerabilities/)<br>
+[neuralegion.com Local File Inclusion (LFI): Understanding and Preventing LFI Attacks](https://www.neuralegion.com/blog/local-file-inclusion-lfi/)<br>
+[netsparker.com Local File Inclusion (LFI)](https://www.netsparker.com/blog/web-security/local-file-inclusion-vulnerability/)
+[imperva.com Remote file inclusion (RFI)](https://www.imperva.com/learn/application-security/rfi-remote-file-inclusion/)
 
 ### Open Redirect
 
@@ -500,9 +500,9 @@ Para entender esta vulnerabilidade, primeiro é necessário entender o que são 
 As tomadas de controle de subdomínio (Subdomain Takeover) são uma ameaça comum e de alta gravidade para as organizações que criam e excluem muitos recursos regularmente. Uma tomada de controle de subdomínio pode ocorrer quando um registro DNS indicar um recurso desprovisionado do, por exemplo, Azure. Esses registros DNS também são conhecidos como entradas "DNS pendentes". Os registros CNAME são particularmente vulneráveis a essa ameaça. As invasões de subdomínio permitem que os atores mal-intencionados redirecionem o tráfego destinado ao domínio de uma organização a um site que executa atividades mal-intencionadas.
 
 
-[www.honeybadger.io | Explicação + cenário de ataque real + mitigação](https://www.honeybadger.io/blog/subdomain-takeover/)
-[hackerone.com | guide-subdomain-takeovers](https://www.hackerone.com/application-security/guide-subdomain-takeovers)
-[youtube.com | Palestra do hacker brasileiro Ricardo Iramar, em português](https://www.youtube.com/watch?v=u_nXZ4YRcto&ab_channel=Roadsec)
+[www.honeybadger.io Explicação + cenário de ataque real + mitigação](https://www.honeybadger.io/blog/subdomain-takeover/)
+[hackerone.com guide-subdomain-takeovers](https://www.hackerone.com/application-security/guide-subdomain-takeovers)
+[youtube.com Palestra do hacker brasileiro Ricardo Iramar, em português](https://www.youtube.com/watch?v=u_nXZ4YRcto&ab_channel=Roadsec)
 
 ### Insecurity Deserialization
 
@@ -523,7 +523,7 @@ O contrabando de solicitações HTTP (Request Smuggling) é uma técnica para in
 <img src="http-request-smuggling.svg">
 
 [portswigger.net](https://portswigger.net/web-security/request-smuggling)
-[owasp.org | testando request smuggling](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/15-Testing_for_HTTP_Splitting_Smuggling)
+[owasp.org testando request smuggling](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/15-Testing_for_HTTP_Splitting_Smuggling)
 
 ### Clickjacking
 
