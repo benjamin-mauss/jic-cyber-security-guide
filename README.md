@@ -407,8 +407,8 @@ Uma 'condição de corrida' (Race Condition) é uma falha que produz um resultad
 
 Git exposed ou git exposto, em português, é uma falha que, caso a pasta .git esteja exposta, é possível que um atacante tenha acesso ao código fonte da aplicação.
 
-[Artigo medium. em português](https://gabrieldkgh.medium.com/git-exposed-encontrando-manualmente-e-automatizado-como-explorar-como-arrumar-a-falha-eaa3ee98fe8c)<br>
-[Video, em portuegês, de exploração da vulnerabilidade, em um CTF](https://www.youtube.com/watch?v=k_wLZ-pMTOM&ab_channel=GuiaAn%C3%B4nimaCTF)<br>
+[Artigo medium. em português](https://gabrieldkgh.medium.com/git-exposed-encontrando-manualmente-e-automatizado-como-explorar-como-arrumar-a-falha-eaa3ee98fe8c)
+[Video, em portuegês, de exploração da vulnerabilidade, em um CTF](https://www.youtube.com/watch?v=k_wLZ-pMTOM&ab_channel=GuiaAn%C3%B4nimaCTF)
 [Artigo código fonte exposto](https://blog.devgenius.io/source-code-disclosure-via-exposed-git-folder-24993c7561f1)
 
 ### CRLF
@@ -437,7 +437,7 @@ Vulnerabilidades de RFI são mais fáceis de explorar, mas menos comuns. Em vez 
 
 [offensive-security.com | FILE INCLUSION VULNERABILITIES](https://www.offensive-security.com/metasploit-unleashed/file-inclusion-vulnerabilities/)<br>
 [neuralegion.com | Local File Inclusion (LFI): Understanding and Preventing LFI Attacks](https://www.neuralegion.com/blog/local-file-inclusion-lfi/)<br>
-[netsparker.com | Local File Inclusion (LFI)](https://www.netsparker.com/blog/web-security/local-file-inclusion-vulnerability/)<br>
+[netsparker.com | Local File Inclusion (LFI)](https://www.netsparker.com/blog/web-security/local-file-inclusion-vulnerability/)
 [imperva.com | Remote file inclusion (RFI)](https://www.imperva.com/learn/application-security/rfi-remote-file-inclusion/)
 
 ### Open Redirect
@@ -475,9 +475,9 @@ Na verdade, existem duas variações do problemas. O primeiro é com os metadado
 A outra variação do problema é com o tamanho ou conteúdo do arquivo. A gama de problemas aqui depende inteiramente da finalidade do arquivo.
 
 
-[owasp.org](https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload)<br>
-[netsparker.com](https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/unrestricted-file-upload/)<br>
-[acunetix.com](https://www.acunetix.com/vulnerabilities/web/unrestricted-file-upload/)<br>
+[owasp.org](https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload)
+[netsparker.com](https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/unrestricted-file-upload/)
+[acunetix.com](https://www.acunetix.com/vulnerabilities/web/unrestricted-file-upload/)
 [knowledge-base.secureflag.com](https://knowledge-base.secureflag.com/vulnerabilities/unrestricted_file_upload/unrestricted_file_upload_vulnerability.html)
 
 ### Dependency Confusion
