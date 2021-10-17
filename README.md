@@ -328,7 +328,7 @@ O ataque de negação de serviço (Denial of Service - DoS) tem como objetivo to
 
 ### SQL Injection
 
-<img src="https://portswigger.net/web-security/images/sql-injection.svg">
+<img src="sql-injection.svg">
 
 A injeção de SQL (SQL Injection) é uma vulnerabilidade de segurança da web que permite que um invasor interfira nas consultas que um aplicativo faz ao seu banco de dados. Geralmente, permite que um invasor visualize dados que normalmente não é capaz de recuperar. Isso pode incluir dados pertencentes a outros usuários ou quaisquer outros dados que o próprio aplicativo é capaz de acessar. Em muitos casos, um invasor pode modificar ou excluir esses dados, causando alterações persistentes no conteúdo ou comportamento do aplicativo.
 
@@ -338,7 +338,7 @@ A injeção de SQL (SQL Injection) é uma vulnerabilidade de segurança da web q
 
 ### XSS
 
-<img src="https://portswigger.net/web-security/images/cross-site-scripting.svg">
+<img src="cross-site-scripting.svg">
 
 Ataques Cross-Site Scripting (XSS) são um tipo de injeção de código, em que scripts maliciosos são injetados em sites benignos e confiáveis. Os ataques XSS ocorrem quando um invasor usa um aplicativo da web para enviar código malicioso, geralmente na forma de um script do lado do navegador, para um usuário final diferente. As falhas que permitem que esses ataques sejam bem-sucedidos são bastante difundidas e ocorrem em qualquer lugar que um aplicativo da web use a entrada de um usuário dentro da saída que gera, sem validá-la ou codificá-la.
 
@@ -347,7 +347,7 @@ Ataques Cross-Site Scripting (XSS) são um tipo de injeção de código, em que 
 
 ### CSRF
 
-<img src="https://portswigger.net/web-security/images/cross-site%20request%20forgery.svg">
+<img src="cross-site%20request%20forgery.svg">
 
 Cross-Site Request Forgery (CSRF) é um ataque que força um usuário final a executar ações indesejadas em um aplicativo da web no qual ele está autenticado no momento. Com um pouco de ajuda de engenharia social (como enviar um link por e-mail ou chat), um invasor pode enganar os usuários de um aplicativo da web para que executem ações à escolha do invasor. Se a vítima for um usuário normal, um ataque CSRF bem-sucedido pode forçar o usuário a realizar solicitações de alteração de estado, como transferência de fundos, alteração de endereço de e-mail e assim por diante. Se a vítima for uma conta administrativa, o CSRF pode comprometer todo o aplicativo da web.
 
@@ -356,7 +356,7 @@ Cross-Site Request Forgery (CSRF) é um ataque que força um usuário final a ex
 
 ### IDOR
 
-<img src="https://portswigger.net/web-security/images/access-control.svg">
+<img src="access-control.svg">
 
 A 'referência direta a objetos inseguros' (IDOR - Insecure direct object references) é um tipo de vulnerabilidade de controle de acesso que surge quando um aplicativo usa a entrada fornecida pelo usuário para acessar objetos diretamente, sem verificar se o usuário tem permissão para tal. O termo IDOR foi popularizado por sua aparição no OWASP 2007 Top Ten. No entanto, é apenas um exemplo de muitos erros de implementação de controle de acesso que podem fazer com que os controles de acesso sejam contornados. Vulnerabilidades de IDOR são mais comumente associadas ao 'aumento de privilégio horizontal', mas também podem surgir em relação ao aumento de privilégio vertical.
 
@@ -367,7 +367,7 @@ A 'referência direta a objetos inseguros' (IDOR - Insecure direct object refere
 
 ### SSRF
 
-<img src="https://portswigger.net/web-security/images/server-side%20request%20forgery.svg">
+<img src="server-side%20request%20forgery.svg">
 
 A 'falsificação de solicitação do lado do servidor' (SSRF - Server-side request forgery) é uma vulnerabilidade de segurança da web que permite que um invasor induza o servidor a fazer solicitações HTTP (ou outros tipos) para um domínio de escolha do invasor.
 
@@ -381,7 +381,7 @@ Testes suas habilidades de SSRF [aqui](https://github.com/WebGoat/WebGoat).
 
 ### XXE
 
-<img src="https://portswigger.net/web-security/images/xxe-injection.svg">
+<img src="xxe-injection.svg">
 
 Um 'ataque de entidade externa' (XXE - External Entity attack) é um tipo de ataque contra um aplicativo que analisa a entrada XML. Este ataque ocorre quando a entrada XML contendo uma referência a uma entidade externa é processada por um analisador XML com configuração fraca. Este ataque pode levar à divulgação de dados confidenciais, negação de serviço, falsificação de solicitação do lado do servidor, varredura de porta da perspectiva da máquina onde o analisador está localizado e outros impactos no sistema.
 
@@ -405,7 +405,7 @@ Uma 'condição de corrida' (Race Condition) é uma falha que produz um resultad
 
 ### Git Exposed
 
-<img src="https://commons.wikimedia.org/wiki/File:Git-logo-orange.svg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Git-logo-orange.svg">
 
 Git exposed ou git exposto, em português, é uma falha que, caso a pasta .git esteja exposta, é possível que um atacante tenha acesso ao código fonte da aplicação.
 
@@ -518,24 +518,24 @@ A desserialização insegura (Insecurity Deserialization) ocorre quando os dados
 
 ### Request Smuggling
 
-<img src="https://portswigger.net/web-security/images/http-request-smuggling.svg">
+<img src="http-request-smuggling.svg">
 
 O contrabando de solicitações HTTP (Request Smuggling) é uma técnica para interferir na maneira como um site da Web processa sequências de solicitações HTTP recebidas de um ou mais usuários. Vulnerabilidades Request Smuggling costumam ser de natureza crítica, permitindo que um invasor ignore os controles de segurança, obtenha acesso não autorizado a dados confidenciais e comprometa diretamente outros usuários de aplicativos.
 
-<img src="https://portswigger.net/web-security/images/http-request-smuggling.svg">
+<img src="http-request-smuggling.svg">
 
 [portswigger.net](https://portswigger.net/web-security/request-smuggling)
 [owasp.org | testando request smuggling](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/15-Testing_for_HTTP_Splitting_Smuggling)
 
 ### Clickjacking
 
-<img src="https://portswigger.net/web-security/images/clickjacking-infographic.svg">
+<img src="clickjacking-infographic.svg">
 
 Clickjacking é um ataque baseado em interface em que um usuário é induzido a clicar em um conteúdo acionável em um site oculto, clicando em algum outro conteúdo em um site falso.
 
 Usando uma técnica semelhante, os pressionamentos de teclas também podem ser sequestrados. Com uma combinação cuidadosamente elaborada de css, iframes e caixas de texto, um usuário pode ser levado a acreditar que está digitando a senha em seu e-mail ou conta bancária, mas em vez disso está digitando em um quadro invisível controlado pelo invasor.
 
-<img src="https://portswigger.net/web-security/images/clickjacking-infographic.svg">
+<img src="clickjacking-infographic.svg">
 
 [owasp.org](https://owasp.org/www-community/attacks/Clickjacking)
 [portswigger.net](https://portswigger.net/web-security/clickjacking)
@@ -550,7 +550,7 @@ Fundamentalmente, o envenenamento do cache da web envolve duas fases. Primeiro, 
 
 Um cache da web envenenado pode ser um meio devastador de distribuir vários ataques diferentes, explorando vulnerabilidades como XSS, injeção de JavaScript, Open Redirect e assim por diante.
 
-<img src="https://portswigger.net/web-security/images/caching.svg">
+<img src="caching.svg">
 [owasp.org](https://owasp.org/www-community/attacks/Cache_Poisoning)
 [portswigger.net](https://portswigger.net/web-security/web-cache-poisoning)
 
