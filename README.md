@@ -16,7 +16,6 @@ O método empregado é a criação de um website que faz a indexação de materi
 O estudante e autor do projeto, Benjamin Walter, segue essa metodologia e, atualmente, trabalha na área de segurança de informação, encontrando e reportando, eticamente, vulnerabilidades para grandes empresas como Facebook, Shopify, Mercado Livre, CS Money, Avast, Google, Discord e outros programas de recompensas por vulnerabilidades (privados).
 </p></div>
 
-
 ## Tabela de conteúdos
 - [Apresentação](#apresentação)
 - [Tabela de conteúdos](#tabela-de-conteúdos)
@@ -71,11 +70,11 @@ O estudante e autor do projeto, Benjamin Walter, segue essa metodologia e, atual
   - [Enumeração de portas](#)
   - [Google dork](#)
   - [Crawling](#)
-- [:wrench: Ferramentas***](#) <!-- Dar um ls na minhas tools. Pesquisar por tools usadas no pentest -->
-  - [:wrench: BurpSuite](#)
-  - [:wrench: Sqlmap](#)
-  - [:wrench: amass](#)
-  - [:wrench: nmap](#)
+- [<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png"> Ferramentas***](#) <!-- Dar um ls na minhas tools. Pesquisar por tools usadas no pentest -->
+  - [<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png"> BurpSuite](#)
+  - [<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png"> Sqlmap](#)
+  - [<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png"> amass](#)
+  - [<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png"> nmap](#)
 - [Bug bounty***](#)
   - [Como participar](#)
   - [Plataformas](#)
@@ -282,7 +281,9 @@ Recomendo também a leitura do E-book disponibilizado pelo site oficial do git.
 Redes é o estudo de como os computadores se comunicam, quais protocolos utilizam.
 Aprenda bem os protocolos: HTTP, UDP E TCP. Não deixe de estudar o modelo OSI, modelo TCP/IP e DNS.
 
-Aprenda sobre [load balance](https://www.eveo.com.br/blog/load-balance/), [reverse proxies](https://www.avast.com/pt-br/c-what-is-a-reverse-proxy), [firewall](https://www.cisco.com/c/pt_br/products/security/firewalls/what-is-a-firewall.html) <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Firewall.png"> e WAF.
+Aprenda sobre [load balance](https://www.eveo.com.br/blog/load-balance/), <br> 
+[reverse proxies](https://www.avast.com/pt-br/c-what-is-a-reverse-proxy), <br> 
+[firewall](https://www.cisco.com/c/pt_br/products/security/firewalls/what-is-a-firewall.html) e <br> [WAF](https://www.gocache.com.br/waf/).
 
 [Curso mais completinho](https://cursa.app/pt/curso/redes-com-boson)
 [Curso introdutório](https://www.cursoemvideo.com/curso/redes-de-computadores/)
@@ -355,7 +356,7 @@ Cross-Site Request Forgery (CSRF) é um ataque que força um usuário final a ex
 
 ### IDOR
 
-<img src="https://portswigger.net/web-security/images/cross-site%20request%20forgery.svg">
+<img src="https://portswigger.net/web-security/images/access-control.svg">
 
 A 'referência direta a objetos inseguros' (IDOR - Insecure direct object references) é um tipo de vulnerabilidade de controle de acesso que surge quando um aplicativo usa a entrada fornecida pelo usuário para acessar objetos diretamente, sem verificar se o usuário tem permissão para tal. O termo IDOR foi popularizado por sua aparição no OWASP 2007 Top Ten. No entanto, é apenas um exemplo de muitos erros de implementação de controle de acesso que podem fazer com que os controles de acesso sejam contornados. Vulnerabilidades de IDOR são mais comumente associadas ao 'aumento de privilégio horizontal', mas também podem surgir em relação ao aumento de privilégio vertical.
 
@@ -366,7 +367,7 @@ A 'referência direta a objetos inseguros' (IDOR - Insecure direct object refere
 
 ### SSRF
 
-<img src="https://portswigger.net/web-security/images/cross-site%20request%20forgery.svg">
+<img src="https://portswigger.net/web-security/images/server-side%20request%20forgery.svg">
 
 A 'falsificação de solicitação do lado do servidor' (SSRF - Server-side request forgery) é uma vulnerabilidade de segurança da web que permite que um invasor induza o servidor a fazer solicitações HTTP (ou outros tipos) para um domínio de escolha do invasor.
 
@@ -404,7 +405,7 @@ Uma 'condição de corrida' (Race Condition) é uma falha que produz um resultad
 
 ### Git Exposed
 
-<img src="">
+<img src="https://commons.wikimedia.org/wiki/File:Git-logo-orange.svg">
 
 Git exposed ou git exposto, em português, é uma falha que, caso a pasta .git esteja exposta, é possível que um atacante tenha acesso ao código fonte da aplicação.
 
@@ -414,7 +415,7 @@ Git exposed ou git exposto, em português, é uma falha que, caso a pasta .git e
 
 ### CRLF
 
-<img src="">
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20200903132628/Screenshot-2020-09-03-at-1.21.35-PM-1024x266.png">
 
 O termo CRLF se refere a 'Carriage return' (ASCII 13, \r) 'Line Feed' (ASCII 10, \n). Eles são usados para observar o encerramento de uma linha, no entanto, tratada de forma diferente nos sistemas operacionais populares de hoje. Por exemplo: no Windows, um CR e LF são obrigados a observar o final de uma linha, enquanto no Linux / UNIX um LF é necessário apenas. No protocolo HTTP, a sequência CR-LF é sempre usada para encerrar uma linha.
 
@@ -428,7 +429,7 @@ Existem mais dois usos comuns de ataques de injeção CRLF: envenenamento de log
 
 ### LFI e RFI
 
-<img src="">
+<img src="https://shopboss.in/wp-content/uploads/2021/04/GamingTour.jpg">
 
 Inclusão de arquivo remoto (RFI - Remote File Inclusion) e Inclusão de arquivo local (LFI - Local File Inclusion) são vulnerabilidades  freqüentemente encontradas em aplicativos da web mal escritos. Essas vulnerabilidades ocorrem quando um aplicativo da web permite que o usuário envie entrada em arquivos ou faça upload de arquivos para o servidor.
 
@@ -443,7 +444,7 @@ Vulnerabilidades de RFI são mais fáceis de explorar, mas menos comuns. Em vez 
 
 ### Open Redirect
 
-<img src="">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Redirection.svg">
 
 Open Redirect são possíveis quando um aplicativo da web aceita entradas de dados não confiáveis, que podem fazer com que o servidor redirecione a solicitação para uma outra URL contido na entrada não confiável. Ao modificar a entrada de URL não confiável para um site malicioso, um invasor pode lançar um esquema de phishing e roubar as credenciais do usuário.
 
@@ -452,7 +453,7 @@ Open Redirect são possíveis quando um aplicativo da web aceita entradas de dad
 
 ### NoSQL Injection
 
-<img src="">
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Nosql.gif">
 
 Uma vulnerabilidade de injeção NoSQL é um erro em um servidor da web que usa um banco de dados NoSQL (normalmente MongoDB). Esse problema de segurança do aplicativo da web permite que uma parte mal-intencionada ignore a autenticação, extraia dados, modifique dados ou até mesmo obtenha controle completo sobre o aplicativo. Ataques de injeção de NoSQL são o resultado de uma falta de sanetização de dados.
 
@@ -465,7 +466,7 @@ Recomendo o estudo de Node JS, MongoDB, Mongoose e Express, caso de deseje se ap
 
 ### Unrestricted File Upload
 
-<img src="">
+<img src="https://live.staticflickr.com/8449/8048551988_1a22b1e2a0_c.jpg">
 
 Os uploads de arquivos representam um risco significativo para os servidores. O primeiro passo em muitos ataques é fazer upload de código malicioso ao sistema alvo. Então, o ataque só precisa encontrar uma maneira de fazer com que o código seja executado. Usar um upload de arquivo ajuda o invasor a realizar a primeira etapa.
 
@@ -483,7 +484,7 @@ A outra variação do problema é com o tamanho ou conteúdo do arquivo. A gama 
 
 ### Dependency Confusion
 
-<img src="">
+<img src="https://static.thenounproject.com/png/1562058-200.png">
 
 Recomendo que você conheça gerenciadores de pacotes, como pip, gems ou npm antes de começar a testar por esta vulnerabilidade.
 
@@ -494,7 +495,7 @@ O conceito da vulnerabilidade Dependency Confusion é que, por causa de como os 
 
 ### Subdomain Takeover
 
-<img src="">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Subdomain.jpg/800px-Subdomain.jpg">
 
 Para entender esta vulnerabilidade, primeiro é necessário entender o que são CNAMEs, portanto, tenha certeza de ter entendido isto muito bem nas aulas de redes.
 
@@ -507,7 +508,7 @@ As tomadas de controle de subdomínio (Subdomain Takeover) são uma ameaça comu
 
 ### Insecurity Deserialization
 
-<img src="">
+<img src="https://portswigger.net/web-security/images/deserialization-infographic.jpg">
 
 A desserialização insegura (Insecurity Deserialization) ocorre quando os dados controláveis pelo usuário são desserializados por um site. Isso permite que um invasor manipule objetos serializados para passar dados prejudiciais ao código do aplicativo.
 
@@ -517,7 +518,7 @@ A desserialização insegura (Insecurity Deserialization) ocorre quando os dados
 
 ### Request Smuggling
 
-<img src="">
+<img src="https://portswigger.net/web-security/images/http-request-smuggling.svg">
 
 O contrabando de solicitações HTTP (Request Smuggling) é uma técnica para interferir na maneira como um site da Web processa sequências de solicitações HTTP recebidas de um ou mais usuários. Vulnerabilidades Request Smuggling costumam ser de natureza crítica, permitindo que um invasor ignore os controles de segurança, obtenha acesso não autorizado a dados confidenciais e comprometa diretamente outros usuários de aplicativos.
 
@@ -528,7 +529,7 @@ O contrabando de solicitações HTTP (Request Smuggling) é uma técnica para in
 
 ### Clickjacking
 
-<img src="">
+<img src="https://portswigger.net/web-security/images/clickjacking-infographic.svg">
 
 Clickjacking é um ataque baseado em interface em que um usuário é induzido a clicar em um conteúdo acionável em um site oculto, clicando em algum outro conteúdo em um site falso.
 
@@ -541,7 +542,7 @@ Usando uma técnica semelhante, os pressionamentos de teclas também podem ser s
 
 ### Cache Poisoning
 
-<img src="">
+<img src="https://portswigger.net/cms/images/21/ed/0358ad020c37-article-cache-poisoning-article.png">
 
 O envenenamento do cache da Web (Web Cache Poisoning) é uma técnica avançada pela qual um invasor explora o comportamento de um servidor da Web e do cache para que uma resposta HTTP prejudicial seja servida a outros usuários.
 
@@ -557,7 +558,7 @@ Um cache da web envenenado pode ser um meio devastador de distribuir vários ata
 
 ## Participe de comunidades de cyber segurança
 
-<img src="">
+<img src="https://c.pxhere.com/images/5b/e2/454e9f8f7b59a53828bda147bb69-1637436.jpg!d">
 
 Discord. Se você ainda não conhece essa plataforma (estilo rede social), está perdendo. Você pode criar uma conta e participar de servidores focados em ethical hacking, sejam eles em português ou inglês.
 - [Boitatech](https://www.boitatech.com.br/) Gurizada BR de hacking, bem interessante. \[pt\]
@@ -571,7 +572,7 @@ Discord. Se você ainda não conhece essa plataforma (estilo rede social), está
 
 ## E-books e livros que vão te ajudar
 
-<img src="">
+<img src="https://c.pxhere.com/images/a2/ab/d24d6a7cabac30a5259c189c524e-1452923.jpg!d">
 
 - E-book grátis da [hackerone](https://www.hackerone.com/ethical-hacker/hack-learn-earn-free-e-book): 
 - Bug Bounty Bootcamp by Vickie Li
@@ -581,23 +582,47 @@ Discord. Se você ainda não conhece essa plataforma (estilo rede social), está
 
 ## Onde se informar sobre novas vulnerabilidades e se manter atualizado
 
-<img src="">
+<img src="https://cdn.pixabay.com/photo/2020/12/25/09/57/update-5859000_1280.jpg">
 
 - Hackctivity da hackerone, bugcrowd, YesWeHack, etc., todas essas plataformas de reportes de vulnerabilidades
 - Artigos no medium.com. Tente procurar pelas tags `hacking`, `hackerone`, `cybersec`.
 - Twitter. Pode parece meio plot twist, mas o twitter é uma fonte de informação muito boa quando se diz respeito à tecnologia. Muitas vulnerabilidades 0days são compartilhadas lá. Recomendo a criação de uma conta onde você fique cercado nesse universo da cybersec.
 - O youtube tem vários hackers muito bons também. Algumas lives lhe ajudarão bastante
 
+## A estrada não acaba aqui
+
+<img src="https://p1.pxfuel.com/preview/1017/986/480/highway-road-pavement-desert.jpg">
+
+Não. Não acaba mesmo. Todos os dias, dezenas que vulnerabilidades estão sendo descobertas e reportadas (ou não). Se você parar seu estudo, ficará cada dia mais ultrapassado. Lembre-se: se há uma atualização, muito provavelmente, há uma nova falha. Novas tecnologias, cheinhas de vulnerabilidades, estão esperando você.
+
+### Aprenda outras tecnologias
+
+<img src="https://i0.hippopx.com/photos/944/518/573/grass-lawn-rain-smartphone-preview.jpg">
+
+- Node JS e o principais frameworks web
+- Laravel
+- Templates como handlebars
+- Python, Bash e GO (principalmente para criação de ferramentas para encontrar falhas)
+
+### Outras falhas/vulnerabilidades que você pode se aprofundar
+
+ <img src="https://get.pxhere.com/photo/grass-kitten-cat-autumn-mammal-fauna-whiskers-vertebrate-mackerel-red-mackerel-tabby-cat-baby-young-cats-small-to-medium-sized-cats-cat-like-mammal-839667.jpg">
+
+- SSTI (Server side template injection)
+- PP (Prototype pollution)
+- RCE (Remote code execution)
+
+
 ## Licença
 
-<img src="">
+<img src="https://p2.piqsels.com/preview/160/398/379/person-work-woman-man.jpg">
 
 MIT License. [Leia mais](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt).
 
 
 ## Fontes
 
-<img src="">
+<img src="https://c.pxhere.com/images/cb/a5/d2caa68c07b7a3ffd23ced1a1726-1456175.jpg!d">
 
 - [Hacker roadmap](https://github.com/sundowndev/hacker-roadmap)
 - [Dados de ataques hackers](https://olhardigital.com.br/2021/09/12/seguranca/brasil-e-o-5o-pais-em-ataques-de-hackers-contra-empresas)
