@@ -70,7 +70,7 @@ O estudante e autor do projeto, Benjamin Walter, segue essa metodologia e, atual
   - [Enumeração de portas](#)
   - [Google dork](#)
   - [Crawling](#)
-- [<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png"> Ferramentas***](#) <!-- Dar um ls na minhas tools. Pesquisar por tools usadas no pentest -->
+- [<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png" class="ferramenta"> Ferramentas***](#) <!-- Dar um ls na minhas tools. Pesquisar por tools usadas no pentest -->
   - [<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png"> BurpSuite](#)
   - [<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png"> Sqlmap](#)
   - [<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png"> amass](#)
@@ -635,4 +635,7 @@ p {
   text-indent: 2em;
   text-align: justify;
   }
+.ferramenta {
+  width: 15px; 
+ }
 </style>
