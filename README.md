@@ -380,7 +380,7 @@ Testes suas habilidades de SSRF [aqui](https://github.com/WebGoat/WebGoat).
 
 ### XXE
 
-<img src="https://portswigger.net/web-security/xxe">
+<img src="https://portswigger.net/web-security/images/xxe-injection.svg">
 
 Um 'ataque de entidade externa' (XXE - External Entity attack) é um tipo de ataque contra um aplicativo que analisa a entrada XML. Este ataque ocorre quando a entrada XML contendo uma referência a uma entidade externa é processada por um analisador XML com configuração fraca. Este ataque pode levar à divulgação de dados confidenciais, negação de serviço, falsificação de solicitação do lado do servidor, varredura de porta da perspectiva da máquina onde o analisador está localizado e outros impactos no sistema.
 
@@ -391,7 +391,7 @@ Um 'ataque de entidade externa' (XXE - External Entity attack) é um tipo de ata
 
 ### Race Condition
 
-<img src="">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/BMW_M8_in_rain_condition_at_the_2020_Road_Race_Showcase.jpg/800px-BMW_M8_in_rain_condition_at_the_2020_Road_Race_Showcase.jpg">
 
 Uma 'condição de corrida' (Race Condition) é uma falha que produz um resultado inesperado quando o tempo das ações afeta outras ações. Um exemplo pode ser visto em um aplicativo multithread em que as ações estão sendo executadas nos mesmos dados. As condições da corrida, por sua própria natureza, são difíceis de testar.
 
