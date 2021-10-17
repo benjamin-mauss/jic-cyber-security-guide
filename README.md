@@ -184,8 +184,8 @@ HTML é uma linguagem de marcação utilizada na construção de páginas na Web
 [Curso de html, css e js do curso em vídeo](https://www.cursoemvideo.com/curso/html5/)
 
 Curso de html5 e css, um pouco mais antigo: 
-[modulo 1](https://www.cursoemvideo.com/curso/html5-css3-modulo1/)
-[modulo 2](https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/)
+<br>[modulo 1](https://www.cursoemvideo.com/curso/html5-css3-modulo1/)
+<br>[modulo 2](https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/)
 
 
 ### CSS - Cascading Style Sheets
@@ -196,27 +196,27 @@ A tecnologia deve ser estudada junto ao HTML. CSS é responsável por dar beleza
 [Curso de html, css e js do curso em vídeo](https://www.cursoemvideo.com/curso/html5/)
 
 Curso de html e css, um pouco mais antigo: 
-[modulo 1](https://www.cursoemvideo.com/curso/html5-css3-modulo1/)
-[modulo 2](https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/)
+<br>[modulo 1](https://www.cursoemvideo.com/curso/html5-css3-modulo1/)
+<br>[modulo 2](https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/)
 
 
 ### Javascript
 
 A linguagem de programação usada em websites, interpretada pelo seu navegador. Essencial a aprendizagem (após o HTML).
-[Curso de javascript](https://www.cursoemvideo.com/curso/javascript/)
+<br>[Curso de javascript](https://www.cursoemvideo.com/curso/javascript/)
 
 ### PHP
 
 Linguagem de programação interpretada. Normalmente é utilizada com back-end de websites. Recomendo que estude bastante esta parte web, faça vários projetos (CRUD, sistemas de autenticações envolvendo banco de dados mysql, sistemas de permissões, autenticação por sessões, autenticação por JWT, websockets, autenticação por oauth, integração com o google recaptcha, integração com sistemas de pagamentos como paypal, sistemas de chats, sistemas com verificações e envios de emails, integração com gravatar, e-commerces, etc.)
 
 Você provavelmente vai querer aprender frameworks como laravel e bootstrap.
-[Aprenda sobre cookies](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Headers/Set-Cookie): o que são as propriedades 'paths', 'domains','expiration', etc.
+<br>[Aprenda sobre cookies](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Headers/Set-Cookie): o que são as propriedades 'paths', 'domains','expiration', etc.
 
 Neste momento, você já tem uma boa base em computadores (pelo curso de OAC), programação (por ter feito os cursos de C/C++ e lógica) e desenvolviment front-end (cursos de html, css e javascript), portanto, PHP não será nenhum bixo de 7 cabeças. Você deve fazer muitos projetos nesse estágio.
 
 DICA: crie um github, aprenda git e coloque seus projetos. Github, muitas vezes, vale mais do que (ou pode ser considerado) um currículo.
 
-[Curso de PHP Básico](https://www.cursoemvideo.com/curso/php-basico/)
+<br>[Curso de PHP Básico](https://www.cursoemvideo.com/curso/php-basico/)
 
 Recomendo a leitura da documentação para maior aprofundamento na linguagem.
 
@@ -225,13 +225,13 @@ Recomendo a leitura da documentação para maior aprofundamento na linguagem.
 O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares.
 Basicamente ele vai armazenar informações para você de forma confiável, sabendo que não haverão perdas de dados. É simples, você consegue aprender o básico em semanas. Vale muito a pena aprender sobre. Integre com PHP.
 
-[Ótimo curso, cobre o básico e intermediário](https://www.cursoemvideo.com/curso/mysql)
-[Curso completíssimo, recomendo este](http://www.bosontreinamentos.com.br/curso-completo-de-mysql/)
+<br>[Ótimo curso, cobre o básico e intermediário](https://www.cursoemvideo.com/curso/mysql)
+<br>[Curso completíssimo, recomendo este](http://www.bosontreinamentos.com.br/curso-completo-de-mysql/)
 
 ### Git e GitHub
 
 Não posso deixar de fora essas duas tecnologias incríveis, que serão de extrema importância na sua jornada de cyber security.
-[Curso de Git e GitHub](https://www.cursoemvideo.com/curso/curso-de-git-e-github/) Pode parecer bobo, mas vale a pena fazer. São ferramenta extremamete utilizadas e requisitadas no mercado.
+<br>[Curso de Git e GitHub](https://www.cursoemvideo.com/curso/curso-de-git-e-github/) Pode parecer bobo, mas vale a pena fazer. São ferramenta extremamete utilizadas e requisitadas no mercado.
 
 Recomendo também a leitura do E-book disponibilizado pelo site oficial do git.
 
@@ -271,7 +271,7 @@ Como dito antes, o inglês é essencial. Nesta parte, praticamente todas as expl
 
 O ataque de negação de serviço (Denial of Service - DoS) tem como objetivo tornar um recurso (site, aplicativo, servidor) indisponível para a finalidade para a qual foi projetado. Existem muitas maneiras de tornar um serviço indisponível para usuários legítimos: manipulando pacotes de rede, vulnerabilidades de programação, lógicas ou de manipulação de recursos, entre outras. Se um serviço receber um grande número de solicitações, ele pode deixar de estar disponível para usuários legítimos. 
 
-[owasp.org](https://owasp.org/www-community/attacks/Denial_of_Service)
+[owasp.org](https://owasp.org/www-community/attacks/Denial_of_Service)<br>
 [paloaltonetworks.com](https://www.paloaltonetworks.com/cyberpedia/what-is-a-denial-of-service-attack-dos)
 
 
@@ -279,7 +279,7 @@ O ataque de negação de serviço (Denial of Service - DoS) tem como objetivo to
 
 A injeção de SQL (SQL Injection) é uma vulnerabilidade de segurança da web que permite que um invasor interfira nas consultas que um aplicativo faz ao seu banco de dados. Geralmente, permite que um invasor visualize dados que normalmente não é capaz de recuperar. Isso pode incluir dados pertencentes a outros usuários ou quaisquer outros dados que o próprio aplicativo é capaz de acessar. Em muitos casos, um invasor pode modificar ou excluir esses dados, causando alterações persistentes no conteúdo ou comportamento do aplicativo.
 
-[owasp.org](https://owasp.org/www-community/attacks/SQL_Injection)
+[owasp.org](https://owasp.org/www-community/attacks/SQL_Injection)<br>
 [portswigger.net](https://portswigger.net/web-security/sql-injection)
 
 
@@ -287,14 +287,14 @@ A injeção de SQL (SQL Injection) é uma vulnerabilidade de segurança da web q
 
 Ataques Cross-Site Scripting (XSS) são um tipo de injeção de código, em que scripts maliciosos são injetados em sites benignos e confiáveis. Os ataques XSS ocorrem quando um invasor usa um aplicativo da web para enviar código malicioso, geralmente na forma de um script do lado do navegador, para um usuário final diferente. As falhas que permitem que esses ataques sejam bem-sucedidos são bastante difundidas e ocorrem em qualquer lugar que um aplicativo da web use a entrada de um usuário dentro da saída que gera, sem validá-la ou codificá-la.
 
-[owasp.org](https://owasp.org/www-community/attacks/xss/)
+[owasp.org](https://owasp.org/www-community/attacks/xss/)<br>
 [portswigger.net](https://portswigger.net/web-security/cross-site-scripting)
 
 ### CSRF
 
 Cross-Site Request Forgery (CSRF) é um ataque que força um usuário final a executar ações indesejadas em um aplicativo da web no qual ele está autenticado no momento. Com um pouco de ajuda de engenharia social (como enviar um link por e-mail ou chat), um invasor pode enganar os usuários de um aplicativo da web para que executem ações à escolha do invasor. Se a vítima for um usuário normal, um ataque CSRF bem-sucedido pode forçar o usuário a realizar solicitações de alteração de estado, como transferência de fundos, alteração de endereço de e-mail e assim por diante. Se a vítima for uma conta administrativa, o CSRF pode comprometer todo o aplicativo da web.
 
-[owasp.org](https://owasp.org/www-community/attacks/csrf/)
+[owasp.org](https://owasp.org/www-community/attacks/csrf/)<br>
 [portswigger.net](https://portswigger.net/web-security/csrf)
 
 ### IDOR
@@ -302,8 +302,8 @@ Cross-Site Request Forgery (CSRF) é um ataque que força um usuário final a ex
 A 'referência direta a objetos inseguros' (IDOR - Insecure direct object references) é um tipo de vulnerabilidade de controle de acesso que surge quando um aplicativo usa a entrada fornecida pelo usuário para acessar objetos diretamente, sem verificar se o usuário tem permissão para tal. O termo IDOR foi popularizado por sua aparição no OWASP 2007 Top Ten. No entanto, é apenas um exemplo de muitos erros de implementação de controle de acesso que podem fazer com que os controles de acesso sejam contornados. Vulnerabilidades de IDOR são mais comumente associadas ao 'aumento de privilégio horizontal', mas também podem surgir em relação ao aumento de privilégio vertical.
 
 
-[owasp.org](https://cheatsheetseries.owasp.org/cheatsheets/Insecure_Direct_Object_Reference_Prevention_Cheat_Sheet.html)
-[portswigger.net](https://portswigger.net/web-security/access-control/idor)
+[owasp.org](https://cheatsheetseries.owasp.org/cheatsheets/Insecure_Direct_Object_Reference_Prevention_Cheat_Sheet.html)<br>
+[portswigger.net](https://portswigger.net/web-security/access-control/idor)<br>
 [owasp.org pdf](https://owasp.org/www-chapter-ghana/assets/slides/IDOR.pdf)
 
 ### SSRF
@@ -312,9 +312,9 @@ A 'falsificação de solicitação do lado do servidor' (SSRF - Server-side requ
 
 Em um ataque SSRF típico, o invasor pode fazer com que o servidor estabeleça uma conexão apenas com serviços internos dentro da infraestrutura da organização. Em outros casos, eles podem forçar o servidor a se conectar a sistemas externos arbitrários, potencialmente vazando dados confidenciais, como credenciais de autorização.
 
-[owasp.org](https://owasp.org/www-community/attacks/Server_Side_Request_Forgery)
-[portswigger.net](https://portswigger.net/web-security/ssrf)
-[owasp.org ler depois, explicação mais completa](https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/)
+[owasp.org](https://owasp.org/www-community/attacks/Server_Side_Request_Forgery)<br>
+[portswigger.net](https://portswigger.net/web-security/ssrf)<br>
+[owasp.org ler depois, explicação mais completa](https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/)<br><br>
 
 Testes suas habilidades de SSRF [aqui](https://github.com/WebGoat/WebGoat).
 
@@ -323,32 +323,28 @@ Testes suas habilidades de SSRF [aqui](https://github.com/WebGoat/WebGoat).
 Um 'ataque de entidade externa' (XXE - External Entity attack) é um tipo de ataque contra um aplicativo que analisa a entrada XML. Este ataque ocorre quando a entrada XML contendo uma referência a uma entidade externa é processada por um analisador XML com configuração fraca. Este ataque pode levar à divulgação de dados confidenciais, negação de serviço, falsificação de solicitação do lado do servidor, varredura de porta da perspectiva da máquina onde o analisador está localizado e outros impactos no sistema.
 
 
-[owasp.org](https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing)
-[portswigger.net](https://portswigger.net/web-security/xxe)
+[owasp.org](https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing)<br>
+[portswigger.net](https://portswigger.net/web-security/xxe)<br>
 [owasp.org ler depois, explicação mais completa](https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html)
 
 ### Race Condition
 
 Uma 'condição de corrida' (Race Condition) é uma falha que produz um resultado inesperado quando o tempo das ações afeta outras ações. Um exemplo pode ser visto em um aplicativo multithread em que as ações estão sendo executadas nos mesmos dados. As condições da corrida, por sua própria natureza, são difíceis de testar.
 
-[Explicação de race condition](https://www.securitycompassadvisory.com/blog/race-condition-web-applications/)
-[Explicação e prevenção de race conditions](https://blog.sqreen.com/preventing-race-condition-vulnerabilities-in-your-organization/)
-[Artigo de medium](https://medium.com/wearesinch/exploiting-and-fixing-a-race-condition-problem-12976baa952c)
-[owasp.org, pdf bem completo](https://owasp.org/www-pdf-archive/OWASP_NZDay_2011_BrettMoore_ConcurrencyVulnerabilities.pdf)
-[Na prática](https://book.hacktricks.xyz/pentesting-web/race-condition)
+[Explicação de race condition](https://www.securitycompassadvisory.com/blog/race-condition-web-applications/)<br>
+[Explicação e prevenção de race conditions](https://blog.sqreen.com/preventing-race-condition-vulnerabilities-in-your-organization/)<br>
+[Artigo de medium](https://medium.com/wearesinch/exploiting-and-fixing-a-race-condition-problem-12976baa952c)<br>
+[owasp.org, pdf bem completo](https://owasp.org/www-pdf-archive/OWASP_NZDay_2011_BrettMoore_ConcurrencyVulnerabilities.pdf)<br>
+[Na prática](https://book.hacktricks.xyz/pentesting-web/race-condition)<br>
 [Procurando, e encontrando, race conditions](https://krevetk0.medium.com/how-to-check-race-conditions-in-web-applications-338f73937992)
 
 ### Git Exposed
 
 Git exposed ou git exposto, em português, é uma falha que, caso a pasta .git esteja exposta, é possível que um atacante tenha acesso ao código fonte da aplicação.
 
-[Artigo medium. em português](https://gabrieldkgh.medium.com/git-exposed-encontrando-manualmente-e-automatizado-como-explorar-como-arrumar-a-falha-eaa3ee98fe8c)
-[Video, em portuegês, de exploração da vulnerabilidade, em um CTF](https://www.youtube.com/watch?v=k_wLZ-pMTOM&ab_channel=GuiaAn%C3%B4nimaCTF)
+[Artigo medium. em português](https://gabrieldkgh.medium.com/git-exposed-encontrando-manualmente-e-automatizado-como-explorar-como-arrumar-a-falha-eaa3ee98fe8c)<br>
+[Video, em portuegês, de exploração da vulnerabilidade, em um CTF](https://www.youtube.com/watch?v=k_wLZ-pMTOM&ab_channel=GuiaAn%C3%B4nimaCTF)<br>
 [Artigo código fonte exposto](https://blog.devgenius.io/source-code-disclosure-via-exposed-git-folder-24993c7561f1)
-
-### https://owasp.org/www-community/attacks/Clickjacking
-
-### https://owasp.org/www-community/attacks/Cache_Poisoning
 
 ### CRLF
 
@@ -370,19 +366,16 @@ As vulnerabilidades de LFI permitem que um invasor leia (e às vezes execute) ar
 
 Vulnerabilidades de RFI são mais fáceis de explorar, mas menos comuns. Em vez de acessar um arquivo na máquina local, o invasor pode executar o código hospedado em outro website.
 
-
-
-[offensive-security.com | FILE INCLUSION VULNERABILITIES](https://www.offensive-security.com/metasploit-unleashed/file-inclusion-vulnerabilities/)
-[neuralegion.com | Local File Inclusion (LFI): Understanding and Preventing LFI Attacks](https://www.neuralegion.com/blog/local-file-inclusion-
-[netsparker.com | Local File Inclusion (LFI)](https://www.netsparker.com/blog/web-security/local-file-inclusion-vulnerability/)
-
+[offensive-security.com | FILE INCLUSION VULNERABILITIES](https://www.offensive-security.com/metasploit-unleashed/file-inclusion-vulnerabilities/)<br>
+[neuralegion.com | Local File Inclusion (LFI): Understanding and Preventing LFI Attacks](https://www.neuralegion.com/blog/local-file-inclusion-lfi/)<br>
+[netsparker.com | Local File Inclusion (LFI)](https://www.netsparker.com/blog/web-security/local-file-inclusion-vulnerability/)<br>
 [imperva.com | Remote file inclusion (RFI)](https://www.imperva.com/learn/application-security/rfi-remote-file-inclusion/)
 
 ### Open Redirect
 
 Open Redirect são possíveis quando um aplicativo da web aceita entradas de dados não confiáveis, que podem fazer com que o servidor redirecione a solicitação para uma outra URL contido na entrada não confiável. Ao modificar a entrada de URL não confiável para um site malicioso, um invasor pode lançar um esquema de phishing e roubar as credenciais do usuário.
 
-[owasp.com](https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html)
+[owasp.com](https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html)<br>
 [treinaweb.com.br, em português](https://www.treinaweb.com.br/blog/open-redirect-vulnerabilidade-de-redirecionamento-aberto)
 
 ### NoSQL Injection
@@ -391,9 +384,9 @@ Uma vulnerabilidade de injeção NoSQL é um erro em um servidor da web que usa 
 
 Recomendo o estudo de Node JS, MongoDB, Mongoose e Express, caso de deseje se aprofundar em NoSQL Injection.
 
-[owasp.org/www-pdf-archive](https://owasp.org/www-pdf-archive/GOD16-NOSQL.pdf)
-[acunetix.com](https://www.acunetix.com/blog/web-security-zone/nosql-injections/)
-[netsparker.com](https://www.netsparker.com/blog/web-security/what-is-nosql-injection/)
+[owasp.org/www-pdf-archive](https://owasp.org/www-pdf-archive/GOD16-NOSQL.pdf)<br>
+[acunetix.com](https://www.acunetix.com/blog/web-security-zone/nosql-injections/)<br>
+[netsparker.com](https://www.netsparker.com/blog/web-security/what-is-nosql-injection/)<br>
 [book.hacktricks.xyz](https://book.hacktricks.xyz/pentesting-web/nosql-injection)
 
 ### Unrestricted File Upload
@@ -407,24 +400,63 @@ Na verdade, existem duas variações do problemas. O primeiro é com os metadado
 A outra variação do problema é com o tamanho ou conteúdo do arquivo. A gama de problemas aqui depende inteiramente da finalidade do arquivo.
 
 
-[owasp.org](https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload)
-[netsparker.com](https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/unrestricted-file-upload/)
-[acunetix.com](https://www.acunetix.com/vulnerabilities/web/unrestricted-file-upload/)
+[owasp.org](https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload)<br>
+[netsparker.com](https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/unrestricted-file-upload/)<br>
+[acunetix.com](https://www.acunetix.com/vulnerabilities/web/unrestricted-file-upload/)<br>
 [knowledge-base.secureflag.com](https://knowledge-base.secureflag.com/vulnerabilities/unrestricted_file_upload/unrestricted_file_upload_vulnerability.html)
 
 ### Dependency Confusion
 
 Recomendo que você conheça gerenciadores de pacotes, como pip, gems ou npm antes de começar a testar por esta vulnerabilidade.
 
-[Artigo da primeira pessoa que detectou e explorou dependency confusion](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610)
+O conceito da vulnerabilidade Dependency Confusion é que, por causa de como os gerenciadores de pacotes são construídos, se você criar uma biblioteca maliciosa pública com o mesmo nome de uma biblioteca interna da empresa e com uma versão maior, quando o programador executar o comando para atualizar as bibliotecas (ou algo similar), o gerenciador de pacotes irá baixar a sua biblioteca maliciosa permitindo, na grande maioria das vezes, execução remota de código.
+
+[Artigo da primeira pessoa que detectou e explorou dependency confusion](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610)<br>
 [braziljs.org, em português](https://www.braziljs.org/p/dependency-confusion)
+
 ### Subdomain Takeover
+
+Para entender esta vulnerabilidade, primeiro é necessário entender o que são CNAMEs, portanto, tenha certeza de ter entendido isto muito bem nas aulas de redes.
+
+As tomadas de controle de subdomínio (Subdomain Takeover) são uma ameaça comum e de alta gravidade para as organizações que criam e excluem muitos recursos regularmente. Uma tomada de controle de subdomínio pode ocorrer quando um registro DNS indicar um recurso desprovisionado do, por exemplo, Azure. Esses registros DNS também são conhecidos como entradas "DNS pendentes". Os registros CNAME são particularmente vulneráveis a essa ameaça. As invasões de subdomínio permitem que os atores mal-intencionados redirecionem o tráfego destinado ao domínio de uma organização a um site que executa atividades mal-intencionadas.
+
+
+[www.honeybadger.io | Explicação + cenário de ataque real + mitigação](https://www.honeybadger.io/blog/subdomain-takeover/)
+[hackerone.com | guide-subdomain-takeovers](https://www.hackerone.com/application-security/guide-subdomain-takeovers)
+[youtube.com | Palestra do hacker brasileiro Ricardo Iramar, em português](https://www.youtube.com/watch?v=u_nXZ4YRcto&ab_channel=Roadsec)
 
 ### Insecurity Deserialization
 
+A desserialização insegura (Insecurity Deserialization) ocorre quando os dados controláveis pelo usuário são desserializados por um site. Isso permite que um invasor manipule objetos serializados para passar dados prejudiciais ao código do aplicativo.
+
+[portswigger.net](https://portswigger.net/web-security/deserialization)
+[acunetix.com](https://www.acunetix.com/blog/articles/what-is-insecure-deserialization/)
+[owasp.org](https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization)
 
 ### Request Smuggling
 
+O contrabando de solicitações HTTP (Request Smuggling) é uma técnica para interferir na maneira como um site da Web processa sequências de solicitações HTTP recebidas de um ou mais usuários. Vulnerabilidades Request Smuggling costumam ser de natureza crítica, permitindo que um invasor ignore os controles de segurança, obtenha acesso não autorizado a dados confidenciais e comprometa diretamente outros usuários de aplicativos.
+
+<img src="https://portswigger.net/web-security/images/http-request-smuggling.svg">
+
+[portswigger.net](https://portswigger.net/web-security/request-smuggling)
+[owasp.org | testando request smuggling](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/15-Testing_for_HTTP_Splitting_Smuggling)
+
+### Clickjacking
+
+Clickjacking é um ataque baseado em interface em que um usuário é induzido a clicar em um conteúdo acionável em um site oculto, clicando em algum outro conteúdo em um site falso.
+
+Usando uma técnica semelhante, os pressionamentos de teclas também podem ser sequestrados. Com uma combinação cuidadosamente elaborada de css, iframes e caixas de texto, um usuário pode ser levado a acreditar que está digitando a senha em seu e-mail ou conta bancária, mas em vez disso está digitando em um quadro invisível controlado pelo invasor.
+
+<img src="https://portswigger.net/web-security/images/clickjacking-infographic.svg">
+
+[owasp.org](https://owasp.org/www-community/attacks/Clickjacking)
+[portswigger.net](https://portswigger.net/web-security/clickjacking)
+
+### Cache Poisoning
+https://owasp.org/www-community/attacks/Cache_Poisoning
+
+<!-- Adicionar python ou bash aos pré requisitos -->
 
 ## Participe de comunidades de cyber segurança
 
