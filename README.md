@@ -61,6 +61,8 @@ O estudante e autor do projeto, Benjamin Walter, segue essa metodologia e, atual
   - [Unrestricted File Upload](#unrestricted-file-upload)
   - [Dependency Confusion](#dependency-confusion)
   - [Subdomain Takeover](#subdomain-takeover)
+  - [Clickjacking](#)
+  - [Cache_Poisoning](#)
   - [OOB](#00b) <!--Out-Of-Band -->
   - [Insecurity Deserialization](#insecure-deserialization)
   - [Request Smuggling](#)
@@ -261,16 +263,167 @@ Linux é um (core do) sistema operacional muito conhecido, open source. Recomend
 
 ## Vulnerabilidades
 
+Como dito antes, o inglês é essencial. Nesta parte, praticamente todas as explicações das vulnerabilidades estão em inglês, por isso, não se impressione caso não encontrar artigos em português.
+
 <!-- LEMBRAR DE COLOCAR IMAGENS E EMOJIS E TUDO OOF; CONTINUAR DAQUI -->
 
+### DOS
+
+O ataque de negação de serviço (Denial of Service - DoS) tem como objetivo tornar um recurso (site, aplicativo, servidor) indisponível para a finalidade para a qual foi projetado. Existem muitas maneiras de tornar um serviço indisponível para usuários legítimos: manipulando pacotes de rede, vulnerabilidades de programação, lógicas ou de manipulação de recursos, entre outras. Se um serviço receber um grande número de solicitações, ele pode deixar de estar disponível para usuários legítimos. 
+
+[owasp.org](https://owasp.org/www-community/attacks/Denial_of_Service)
+[paloaltonetworks.com](https://www.paloaltonetworks.com/cyberpedia/what-is-a-denial-of-service-attack-dos)
+
+
+### SQL Injection
+
+A injeção de SQL (SQL Injection) é uma vulnerabilidade de segurança da web que permite que um invasor interfira nas consultas que um aplicativo faz ao seu banco de dados. Geralmente, permite que um invasor visualize dados que normalmente não é capaz de recuperar. Isso pode incluir dados pertencentes a outros usuários ou quaisquer outros dados que o próprio aplicativo é capaz de acessar. Em muitos casos, um invasor pode modificar ou excluir esses dados, causando alterações persistentes no conteúdo ou comportamento do aplicativo.
+
+[owasp.org](https://owasp.org/www-community/attacks/SQL_Injection)
+[portswigger.net](https://portswigger.net/web-security/sql-injection)
+
+
+### XSS
+
+Ataques Cross-Site Scripting (XSS) são um tipo de injeção de código, em que scripts maliciosos são injetados em sites benignos e confiáveis. Os ataques XSS ocorrem quando um invasor usa um aplicativo da web para enviar código malicioso, geralmente na forma de um script do lado do navegador, para um usuário final diferente. As falhas que permitem que esses ataques sejam bem-sucedidos são bastante difundidas e ocorrem em qualquer lugar que um aplicativo da web use a entrada de um usuário dentro da saída que gera, sem validá-la ou codificá-la.
+
+[owasp.org](https://owasp.org/www-community/attacks/xss/)
+[portswigger.net](https://portswigger.net/web-security/cross-site-scripting)
+
+### CSRF
+
+Cross-Site Request Forgery (CSRF) é um ataque que força um usuário final a executar ações indesejadas em um aplicativo da web no qual ele está autenticado no momento. Com um pouco de ajuda de engenharia social (como enviar um link por e-mail ou chat), um invasor pode enganar os usuários de um aplicativo da web para que executem ações à escolha do invasor. Se a vítima for um usuário normal, um ataque CSRF bem-sucedido pode forçar o usuário a realizar solicitações de alteração de estado, como transferência de fundos, alteração de endereço de e-mail e assim por diante. Se a vítima for uma conta administrativa, o CSRF pode comprometer todo o aplicativo da web.
+
+[owasp.org](https://owasp.org/www-community/attacks/csrf/)
+[portswigger.net](https://portswigger.net/web-security/csrf)
+
+### IDOR
+
+A 'referência direta a objetos inseguros' (IDOR - Insecure direct object references) é um tipo de vulnerabilidade de controle de acesso que surge quando um aplicativo usa a entrada fornecida pelo usuário para acessar objetos diretamente, sem verificar se o usuário tem permissão para tal. O termo IDOR foi popularizado por sua aparição no OWASP 2007 Top Ten. No entanto, é apenas um exemplo de muitos erros de implementação de controle de acesso que podem fazer com que os controles de acesso sejam contornados. Vulnerabilidades de IDOR são mais comumente associadas ao 'aumento de privilégio horizontal', mas também podem surgir em relação ao aumento de privilégio vertical.
+
+
+[owasp.org](https://cheatsheetseries.owasp.org/cheatsheets/Insecure_Direct_Object_Reference_Prevention_Cheat_Sheet.html)
+[portswigger.net](https://portswigger.net/web-security/access-control/idor)
+[owasp.org pdf](https://owasp.org/www-chapter-ghana/assets/slides/IDOR.pdf)
+
+### SSRF
+
+A 'falsificação de solicitação do lado do servidor' (SSRF - Server-side request forgery) é uma vulnerabilidade de segurança da web que permite que um invasor induza o servidor a fazer solicitações HTTP (ou outros tipos) para um domínio de escolha do invasor.
+
+Em um ataque SSRF típico, o invasor pode fazer com que o servidor estabeleça uma conexão apenas com serviços internos dentro da infraestrutura da organização. Em outros casos, eles podem forçar o servidor a se conectar a sistemas externos arbitrários, potencialmente vazando dados confidenciais, como credenciais de autorização.
+
+[owasp.org](https://owasp.org/www-community/attacks/Server_Side_Request_Forgery)
+[portswigger.net](https://portswigger.net/web-security/ssrf)
+[owasp.org ler depois, explicação mais completa](https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/)
+
+Testes suas habilidades de SSRF [aqui](https://github.com/WebGoat/WebGoat).
+
+### XXE
+
+Um 'ataque de entidade externa' (XXE - External Entity attack) é um tipo de ataque contra um aplicativo que analisa a entrada XML. Este ataque ocorre quando a entrada XML contendo uma referência a uma entidade externa é processada por um analisador XML com configuração fraca. Este ataque pode levar à divulgação de dados confidenciais, negação de serviço, falsificação de solicitação do lado do servidor, varredura de porta da perspectiva da máquina onde o analisador está localizado e outros impactos no sistema.
+
+
+[owasp.org](https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing)
+[portswigger.net](https://portswigger.net/web-security/xxe)
+[owasp.org ler depois, explicação mais completa](https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html)
+
+### Race Condition
+
+Uma 'condição de corrida' (Race Condition) é uma falha que produz um resultado inesperado quando o tempo das ações afeta outras ações. Um exemplo pode ser visto em um aplicativo multithread em que as ações estão sendo executadas nos mesmos dados. As condições da corrida, por sua própria natureza, são difíceis de testar.
+
+[Explicação de race condition](https://www.securitycompassadvisory.com/blog/race-condition-web-applications/)
+[Explicação e prevenção de race conditions](https://blog.sqreen.com/preventing-race-condition-vulnerabilities-in-your-organization/)
+[Artigo de medium](https://medium.com/wearesinch/exploiting-and-fixing-a-race-condition-problem-12976baa952c)
+[owasp.org, pdf bem completo](https://owasp.org/www-pdf-archive/OWASP_NZDay_2011_BrettMoore_ConcurrencyVulnerabilities.pdf)
+[Na prática](https://book.hacktricks.xyz/pentesting-web/race-condition)
+[Procurando, e encontrando, race conditions](https://krevetk0.medium.com/how-to-check-race-conditions-in-web-applications-338f73937992)
+
+### Git Exposed
+
+Git exposed ou git exposto, em português, é uma falha que, caso a pasta .git esteja exposta, é possível que um atacante tenha acesso ao código fonte da aplicação.
+
+[Artigo medium. em português](https://gabrieldkgh.medium.com/git-exposed-encontrando-manualmente-e-automatizado-como-explorar-como-arrumar-a-falha-eaa3ee98fe8c)
+[Video, em portuegês, de exploração da vulnerabilidade, em um CTF](https://www.youtube.com/watch?v=k_wLZ-pMTOM&ab_channel=GuiaAn%C3%B4nimaCTF)
+[Artigo código fonte exposto](https://blog.devgenius.io/source-code-disclosure-via-exposed-git-folder-24993c7561f1)
+
+### https://owasp.org/www-community/attacks/Clickjacking
+
+### https://owasp.org/www-community/attacks/Cache_Poisoning
+
+### CRLF
+
+O termo CRLF se refere a 'Carriage return' (ASCII 13, \r) 'Line Feed' (ASCII 10, \n). Eles são usados para observar o encerramento de uma linha, no entanto, tratada de forma diferente nos sistemas operacionais populares de hoje. Por exemplo: no Windows, um CR e LF são obrigados a observar o final de uma linha, enquanto no Linux / UNIX um LF é necessário apenas. No protocolo HTTP, a sequência CR-LF é sempre usada para encerrar uma linha.
+
+Um ataque de injeção de CRLF ocorre, geralmente, quando um usuário consegue enviar um CRLF para o servidor e há uma reflexão do conteúdo no cabeçalho, permitindo que haja a injeção de novos headers na resposta. Essa vulnerabilidade pode ser encadeada com um Cache Poisoning.
+
+Existem mais dois usos comuns de ataques de injeção CRLF: envenenamento de log e divisão de resposta HTTP.
+
+[owasp.org](https://owasp.org/www-community/vulnerabilities/CRLF_Injection)
+[acunetix.com](https://www.acunetix.com/websitesecurity/crlf-injection/)
+[greysec.net](https://greysec.net/showthread.php?tid=7022)
+
+### LFI e RFI
+
+Inclusão de arquivo remoto (RFI - Remote File Inclusion) e Inclusão de arquivo local (LFI - Local File Inclusion) são vulnerabilidades  freqüentemente encontradas em aplicativos da web mal escritos. Essas vulnerabilidades ocorrem quando um aplicativo da web permite que o usuário envie entrada em arquivos ou faça upload de arquivos para o servidor.
+
+As vulnerabilidades de LFI permitem que um invasor leia (e às vezes execute) arquivos na máquina da vítima. Isso pode ser muito perigoso porque se o servidor da web estiver mal configurado e executando com altos privilégios, o invasor pode obter acesso a informações confidenciais. Se o invasor conseguir colocar código no servidor da Web por outros meios, ele poderá executar comandos arbitrários.
+
+Vulnerabilidades de RFI são mais fáceis de explorar, mas menos comuns. Em vez de acessar um arquivo na máquina local, o invasor pode executar o código hospedado em outro website.
 
 
 
+[offensive-security.com | FILE INCLUSION VULNERABILITIES](https://www.offensive-security.com/metasploit-unleashed/file-inclusion-vulnerabilities/)
+[neuralegion.com | Local File Inclusion (LFI): Understanding and Preventing LFI Attacks](https://www.neuralegion.com/blog/local-file-inclusion-
+[netsparker.com | Local File Inclusion (LFI)](https://www.netsparker.com/blog/web-security/local-file-inclusion-vulnerability/)
+
+[imperva.com | Remote file inclusion (RFI)](https://www.imperva.com/learn/application-security/rfi-remote-file-inclusion/)
+
+### Open Redirect
+
+Open Redirect são possíveis quando um aplicativo da web aceita entradas de dados não confiáveis, que podem fazer com que o servidor redirecione a solicitação para uma outra URL contido na entrada não confiável. Ao modificar a entrada de URL não confiável para um site malicioso, um invasor pode lançar um esquema de phishing e roubar as credenciais do usuário.
+
+[owasp.com](https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html)
+[treinaweb.com.br, em português](https://www.treinaweb.com.br/blog/open-redirect-vulnerabilidade-de-redirecionamento-aberto)
+
+### NoSQL Injection
+
+Uma vulnerabilidade de injeção NoSQL é um erro em um servidor da web que usa um banco de dados NoSQL (normalmente MongoDB). Esse problema de segurança do aplicativo da web permite que uma parte mal-intencionada ignore a autenticação, extraia dados, modifique dados ou até mesmo obtenha controle completo sobre o aplicativo. Ataques de injeção de NoSQL são o resultado de uma falta de sanetização de dados.
+
+Recomendo o estudo de Node JS, MongoDB, Mongoose e Express, caso de deseje se aprofundar em NoSQL Injection.
+
+[owasp.org/www-pdf-archive](https://owasp.org/www-pdf-archive/GOD16-NOSQL.pdf)
+[acunetix.com](https://www.acunetix.com/blog/web-security-zone/nosql-injections/)
+[netsparker.com](https://www.netsparker.com/blog/web-security/what-is-nosql-injection/)
+[book.hacktricks.xyz](https://book.hacktricks.xyz/pentesting-web/nosql-injection)
+
+### Unrestricted File Upload
+
+Os uploads de arquivos representam um risco significativo para os servidores. O primeiro passo em muitos ataques é fazer upload de código malicioso ao sistema alvo. Então, o ataque só precisa encontrar uma maneira de fazer com que o código seja executado. Usar um upload de arquivo ajuda o invasor a realizar a primeira etapa.
+
+As consequências do upload irrestrito de arquivos podem variar, incluindo controle completo do sistema, um sistema de arquivos ou banco de dados sobrecarregado, ataques de encaminhamento para sistemas back-end, ataques do lado do cliente ou simples desfiguração. Depende do que o aplicativo faz com o arquivo carregado e especialmente onde ele está armazenado.
+
+Na verdade, existem duas variações do problemas. O primeiro é com os metadados do arquivo, como o caminho e o nome do arquivo. Geralmente, eles são fornecidos pelo transporte, como a codificação de várias partes HTTP. Esses dados podem induzir o aplicativo a sobrescrever um arquivo crítico ou armazenar o arquivo em um local incorreto.
+
+A outra variação do problema é com o tamanho ou conteúdo do arquivo. A gama de problemas aqui depende inteiramente da finalidade do arquivo.
 
 
+[owasp.org](https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload)
+[netsparker.com](https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/unrestricted-file-upload/)
+[acunetix.com](https://www.acunetix.com/vulnerabilities/web/unrestricted-file-upload/)
+[knowledge-base.secureflag.com](https://knowledge-base.secureflag.com/vulnerabilities/unrestricted_file_upload/unrestricted_file_upload_vulnerability.html)
+
+### Dependency Confusion
+
+Recomendo que você conheça gerenciadores de pacotes, como pip, gems ou npm antes de começar a testar por esta vulnerabilidade.
+
+[Artigo da primeira pessoa que detectou e explorou dependency confusion](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610)
+[braziljs.org, em português](https://www.braziljs.org/p/dependency-confusion)
+### Subdomain Takeover
+
+### Insecurity Deserialization
 
 
-
+### Request Smuggling
 
 
 ## Participe de comunidades de cyber segurança
