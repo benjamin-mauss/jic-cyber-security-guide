@@ -97,15 +97,21 @@ O estudante e autor do projeto, Benjamin Walter, segue essa metodologia e, atual
 
 ### O que é web hacking?
 
+<img src="https://live.staticflickr.com/5594/14690292569_0766068f08_b.jpg">
+
 Web Hacking são as atividades que procuram comprometer websites, seja obtendo controle completo sobre o website, vazando informações confidenciais ou tornando os  recursos do alvo indisponíveis (Ataque de negação de serviços).
 
 ### Ser hacker é ser criminoso?
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Cliche_Hacker_and_Binary_Code_%2826614834084%29.jpg">
 
 Ao contrário do que muitos pensam, ser hacker não é ser criminoso. É verdade, muitos hackers usam seu conhecimento para o mal, afim de tirar vantagens para si mesmo. Porém, nesse projeto, estaremos abordando somente o hacking ético, o tipo que você tem permissão para hackear.
 
 ### Por que ser um hacker?
 
 #### Curiosidade
+
+<img src="https://c.pxhere.com/photos/0e/fc/philatelist_stamp_collection_stamp_collecting_collection_glass_loop_zoom-1173247.jpg!d"> 
 
 Essa é, provavelmente, a porta de entrada para o mundo dos hackers: um desejo quase incontrolável de investigar, de entender algo. Durante a infância, muitos quebravam os próprios brinquedos, apenas para descobrir como eles funcionavam. Desmontavam partes, encaixavam com pedaços de outros brinquedos, modificavam, criavam algo novo.
 
@@ -115,29 +121,43 @@ Muitas vezes, essa também é a motivação para a invasão de sistemas online: 
 
 #### Diversão
 
+<img src="https://c.pxhere.com/photos/0a/93/adult_amusement_park_beautiful_beauty_fashion_hat_person_style-1570439.jpg!d" srcset="https://c.pxhere.com/photos/0a/93/adult_amusement_park_beautiful_beauty_fashion_hat_person_style-1570439.jpg!d" alt="pessoas, vermelho, luz, Diversão, beleza, iluminação, amarelo, noite, sorrir, verão, óculos, evento, período de férias, festa, rua, feliz, Óculos, cabelo castanho, festival, cidade, desempenho, multidão, Banco de imagens In PxHere">
+
 Outro fator que conta muito para o hacker é a diversão. Antes de qualquer coisa, o hacker tem que gostar do que está fazendo e se divertir com aquilo. Caso contrário, ele não se dedicará tanto quanto gostaria.
 
 #### Desafio
+
+<img src="https://pixnio.com/free-images/2017/05/07/2017-05-07-23-29-26-900x600.jpg" alt="estratégia, trabalho em equipe, brinquedo, Conselho, jogo, desafio, oportunidade, número, jogar" srcset="https://pixnio.com/free-images/2017/05/07/2017-05-07-23-29-26-850x567.jpg 850w, https://pixnio.com/free-images/2017/05/07/2017-05-07-23-29-26-900x600.jpg 900w" sizes="100vw" title="estratégia, trabalho em equipe, brinquedo, Conselho, jogo, desafio, oportunidade, número, jogar" width="900" height="600" itemprop="contentURL">
 
 O hacker precisa se sentir desafiado, instigado a prosseguir com a ação. Muitas vezes essas pessoas agem sem motivação, apenas para perceberem que algo é possível e que eles conseguem fazer. Hackers gostam de resolver problemas. Quanto mais complexos esses problemas, melhor. Diga a um hacker que algo é impossível de ser feito e ele vai tentar até conseguir.
 
 #### Liberdade
 
+<img srcset="https://www.publicdomainpictures.net/pictures/280000/velka/hiking-freedom.jpg" src="https://www.publicdomainpictures.net/pictures/280000/velka/hiking-freedom.jpg" alt="Caminhando pela liberdade" id="image" itemprop="image">
+
 Hackers gostam de explorar os limites de tecnologias e equipamentos e não querem ficar limitados ao uso imposto pela indústria ou fabricante de um dispositivo.
 
 #### Dinheiro
+
+<img src="https://i0.hippopx.com/photos/339/778/529/money-currency-mongolia-cash-preview.jpg">
 
 Trabalhar como pentester ou bug bounty hunter pode gerar uma grana legal. Fazer uma empresa que realiza pentest pode ser um negócio muito lucrativo. Muitas vezes, para um pentest que dura poucos dias, podem ser cobrados valores maiores que USD $50,000.00. Para isso, você tem que ser bom, claro, ter certificações e experiência na área. Bug bounty hunter é algo super lucrativo também: as empresas pagam em dólar, valores que variam entre $50 e $50k, dependendo da vulnerabilidade e da empresa em que foi encontrada a falha.
 
 ### Por que uma empresa contrataria um hacker?
 
+<img src="https://cdn.pixabay.com/photo/2018/01/19/07/57/shaking-hands-3091906_1280.jpg">
+
 Uma falha de segurança pode ser catastrófica para uma empresa. Uma empresa só abre bug bounty público/privado quando tem certeza de que não consegue encontrar nenhuma vulnerabilidade em seu sistema, depois de pagar por pentester e ter analistas de segurança da informação analisando os códigos. O pentest ocorre antes do bug bounty. As empresas pagam para que pentester testem a aplicação delas, à procura de vulnerabilidades.
 
 ### Você não precisa ser um gênio para aprender hacking
 
+<img src="https://www.publicdomainpictures.net/pictures/230000/nahled/albert-einstein-1505932669R3h.jpg">
+
 Na real, isso demora e exige dedicação. Às vezes, você não entende o que o instrutor está falando e tem que pesquisar sobre um assunto, então descobre que tem ainda mais para aprender.
 
 ## O inglês é essencial!
+
+<img src="https://p1.pxfuel.com/preview/789/890/518/education-photo-language-learning-specs-english-hungarian.jpg">
 
 99% dos conteúdos estão em inglês. Não há como fugir. Seus reportes (de vulnerabilidades) serão, em suma, todos em inglês. Você não precisa ser fluente, mas um inglês técnico dá conta legal. Se você conseguir ler livros em inglês, melhor ainda.
 
@@ -149,14 +169,20 @@ Use o google translator sempre que necessário, não é vergonha nenhuma, ningu�
 
 ## O que você precisa saber antes de começar no web hacking?
 
+<img src="https://c.pxhere.com/images/85/0c/39bd0ae20c1ddfd6a45d64a6022f-1587825.jpg!d" srcset="https://c.pxhere.com/images/85/0c/39bd0ae20c1ddfd6a45d64a6022f-1587825.jpg!d" alt="graduação, livro, Educação, estudando, escola, estude, aprender, conhecimento, Aprendendo, universidade, classe, Criatividade, chapéu, Acadêmico, boné, Ferramentas, equipamento, Sala de aula, ensino, produtos, diagrama, design gráfico, desenhar, ilustração, Clip art, gráficos, arte, Banco de imagens In PxHere">
+
 Você precisa de um conhecimento aprofundado em como computadores funcionam, gerenciamento de memória, programação front-end e back-end, redes (como os computadores se comunicam) e protocolos.
 
 ### Lógica de programação
+
+<img src="https://cdn.pixabay.com/photo/2017/06/23/10/48/code-2434271_1280.jpg">
 
 Lógica de programação é básico, o nome é auto explicativo. Algo que todo o programador já teve que estudar. Não pule esta etapa.
 [Curso completo](https://www.cursoemvideo.com/curso/curso-de-algoritmo/)
 
 ### OAC - Organização e arquitetura de computadores
+
+<img src="https://p1.pxfuel.com/preview/937/277/300/electronics-processor-ic-data.jpg">
 
 Esta matéria vai te ensinar como computadores funcionam e um pouco da história destas máquinas (também é importante aprender)
 
@@ -165,6 +191,8 @@ Esta matéria vai te ensinar como computadores funcionam e um pouco da história
 [Livro e-Tec Brasil](https://redeetec.mec.gov.br/images/stories/pdf/eixo_infor_comun/tec_inf/081112_org_arq_comp.pdf), super interessante para quem quer se aprofundar - e vale a pena se aprofundar
 
 ### C/C++
+
+<img src="https://cdn.pixabay.com/photo/2017/03/30/17/43/c-2189150_1280.png">
 
 **C ou C++ vão te dar as bases da programação**. Não comece por Python, Javascript ou qualquer outra linguagem interpretada. Comece por C ou C++, linguagens bem documentadas, compiladas, com um nível de abstração menor.
 
@@ -179,6 +207,8 @@ Esta matéria vai te ensinar como computadores funcionam e um pouco da história
 
 ### HTML - HyperText Markup Language
 
+<img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_1280.jpg">
+
 HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. Essencial o estudo e conhecimento desta tecnologia.
 
 [Curso de html, css e js do curso em vídeo](https://www.cursoemvideo.com/curso/html5/)
@@ -189,6 +219,8 @@ Curso de html5 e css, um pouco mais antigo:
 
 
 ### CSS - Cascading Style Sheets
+
+<img src="https://p0.piqsels.com/preview/219/707/590/css3-css-code-java.jpg">
 
 A tecnologia deve ser estudada junto ao HTML. CSS é responsável por dar beleza à página, assim como a compatibilidade da página em telas com tamanhos diferentes. Os mesmo cursos de HTML compreendem o CSS;
 
@@ -202,10 +234,14 @@ Curso de html e css, um pouco mais antigo:
 
 ### Javascript
 
+<img src="https://cdn.pixabay.com/photo/2018/04/20/21/10/code-3337044_1280.jpg">
+
 A linguagem de programação usada em websites, interpretada pelo seu navegador. Essencial a aprendizagem (após o HTML).
 <br>[Curso de javascript](https://www.cursoemvideo.com/curso/javascript/)
 
 ### PHP
+
+<img src="https://cdn.pixabay.com/photo/2015/08/05/19/52/wordpress-876983_1280.jpg">
 
 Linguagem de programação interpretada. Normalmente é utilizada com back-end de websites. Recomendo que estude bastante esta parte web, faça vários projetos (CRUD, sistemas de autenticações envolvendo banco de dados mysql, sistemas de permissões, autenticação por sessões, autenticação por JWT, websockets, autenticação por oauth, integração com o google recaptcha, integração com sistemas de pagamentos como paypal, sistemas de chats, sistemas com verificações e envios de emails, integração com gravatar, e-commerces, etc.)
 
@@ -222,6 +258,8 @@ Recomendo a leitura da documentação para maior aprofundamento na linguagem.
 
 ### MySQL
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Database-mysql.svg">
+
 O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares.
 Basicamente ele vai armazenar informações para você de forma confiável, sabendo que não haverão perdas de dados. É simples, você consegue aprender o básico em semanas. Vale muito a pena aprender sobre. Integre com PHP.
 
@@ -230,12 +268,16 @@ Basicamente ele vai armazenar informações para você de forma confiável, sabe
 
 ### Git e GitHub
 
+<img src="https://www.ctrl.blog/media/hero/github.jpeg">
+
 Não posso deixar de fora essas duas tecnologias incríveis, que serão de extrema importância na sua jornada de cyber security.
 <br>[Curso de Git e GitHub](https://www.cursoemvideo.com/curso/curso-de-git-e-github/) Pode parecer bobo, mas vale a pena fazer. São ferramenta extremamete utilizadas e requisitadas no mercado.
 
 Recomendo também a leitura do E-book disponibilizado pelo site oficial do git.
 
 ### Redes
+
+<img src="https://live.staticflickr.com/2140/2226679393_0f10eba17b_b.jpg">
 
 Redes é o estudo de como os computadores se comunicam, quais protocolos utilizam.
 Aprenda bem os protocolos: HTTP, UDP E TCP. Não deixe de estudar o modelo OSI, modelo TCP/IP e DNS.
@@ -247,6 +289,8 @@ Aprenda sobre [load balance](https://www.eveo.com.br/blog/load-balance/), [rever
 
 ### CORS
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Flowchart_showing_Simple_and_Preflight_XHR.svg">
+
 Cross-Origin Resource Sharing (CORS), tem a ver com o sistema de permissões que uma página do navegador tem de acessar páginas de outros domínios.
 
 Recomendo a leitura da [documentação](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS)
@@ -254,6 +298,8 @@ Não precisa se apegar a aprender muito bem isso. No momento em que você aprend
 
 
 ### Linux
+
+<img src="https://1.bp.blogspot.com/-TTiSfBs6nfk/XufwvH91pMI/AAAAAAAAzZg/R-7h5f9W0T8-sLDzJC2V6KQQTugq4-JegCLcBGAsYHQ/s1600/V%25C3%25ADdeo%2B-%2B%2BUbuntu%2BLinux%2B20.04%2Bmais%2Bleve%2B.png">
 
 Linux é um (core do) sistema operacional muito conhecido, open source. Recomendo a instalação de uma distro em dual boot na sua máquina, caso já não o tenha. Muitas ferramentas para pestest são feitas em Linux. Muitos servidores usam linux. Estude sobre linux :)
 
@@ -263,11 +309,15 @@ Linux é um (core do) sistema operacional muito conhecido, open source. Recomend
 
 ## Vulnerabilidades
 
+<img src="https://c.pxhere.com/photos/39/f0/hacking_hacker_computer_internet_security_data_technology_network-488123.jpg!d" srcset="https://c.pxhere.com/photos/39/f0/hacking_hacker_computer_internet_security_data_technology_network-488123.jpg!d" alt="computador, tecnologia, número, Internet, linha, biologia, segurança, Fonte, texto, diagrama, espião, privacidade, Pc, crime, protecção, senha, rede, apresentação, código, Captura de tela, dados, Corte, Hacker, Hacking, Cyber, Spyware, Firewall, Segurança informática, segurança de dados, Banco de imagens In PxHere">
+
 Como dito antes, o inglês é essencial. Nesta parte, praticamente todas as explicações das vulnerabilidades estão em inglês, por isso, não se impressione caso não encontrar artigos em português.
 
 <!-- LEMBRAR DE COLOCAR IMAGENS E EMOJIS E TUDO OOF; CONTINUAR DAQUI -->
 
 ### DOS
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/DDos-Keyborad.jpg">
 
 O ataque de negação de serviço (Denial of Service - DoS) tem como objetivo tornar um recurso (site, aplicativo, servidor) indisponível para a finalidade para a qual foi projetado. Existem muitas maneiras de tornar um serviço indisponível para usuários legítimos: manipulando pacotes de rede, vulnerabilidades de programação, lógicas ou de manipulação de recursos, entre outras. Se um serviço receber um grande número de solicitações, ele pode deixar de estar disponível para usuários legítimos. 
 
@@ -277,6 +327,8 @@ O ataque de negação de serviço (Denial of Service - DoS) tem como objetivo to
 
 ### SQL Injection
 
+<img src="https://portswigger.net/web-security/images/sql-injection.svg">
+
 A injeção de SQL (SQL Injection) é uma vulnerabilidade de segurança da web que permite que um invasor interfira nas consultas que um aplicativo faz ao seu banco de dados. Geralmente, permite que um invasor visualize dados que normalmente não é capaz de recuperar. Isso pode incluir dados pertencentes a outros usuários ou quaisquer outros dados que o próprio aplicativo é capaz de acessar. Em muitos casos, um invasor pode modificar ou excluir esses dados, causando alterações persistentes no conteúdo ou comportamento do aplicativo.
 
 [owasp.org](https://owasp.org/www-community/attacks/SQL_Injection)<br>
@@ -285,6 +337,8 @@ A injeção de SQL (SQL Injection) é uma vulnerabilidade de segurança da web q
 
 ### XSS
 
+<img src="https://portswigger.net/web-security/images/cross-site-scripting.svg">
+
 Ataques Cross-Site Scripting (XSS) são um tipo de injeção de código, em que scripts maliciosos são injetados em sites benignos e confiáveis. Os ataques XSS ocorrem quando um invasor usa um aplicativo da web para enviar código malicioso, geralmente na forma de um script do lado do navegador, para um usuário final diferente. As falhas que permitem que esses ataques sejam bem-sucedidos são bastante difundidas e ocorrem em qualquer lugar que um aplicativo da web use a entrada de um usuário dentro da saída que gera, sem validá-la ou codificá-la.
 
 [owasp.org](https://owasp.org/www-community/attacks/xss/)<br>
@@ -292,12 +346,16 @@ Ataques Cross-Site Scripting (XSS) são um tipo de injeção de código, em que 
 
 ### CSRF
 
+<img src="https://portswigger.net/web-security/images/cross-site%20request%20forgery.svg">
+
 Cross-Site Request Forgery (CSRF) é um ataque que força um usuário final a executar ações indesejadas em um aplicativo da web no qual ele está autenticado no momento. Com um pouco de ajuda de engenharia social (como enviar um link por e-mail ou chat), um invasor pode enganar os usuários de um aplicativo da web para que executem ações à escolha do invasor. Se a vítima for um usuário normal, um ataque CSRF bem-sucedido pode forçar o usuário a realizar solicitações de alteração de estado, como transferência de fundos, alteração de endereço de e-mail e assim por diante. Se a vítima for uma conta administrativa, o CSRF pode comprometer todo o aplicativo da web.
 
 [owasp.org](https://owasp.org/www-community/attacks/csrf/)<br>
 [portswigger.net](https://portswigger.net/web-security/csrf)
 
 ### IDOR
+
+<img src="https://portswigger.net/web-security/images/cross-site%20request%20forgery.svg">
 
 A 'referência direta a objetos inseguros' (IDOR - Insecure direct object references) é um tipo de vulnerabilidade de controle de acesso que surge quando um aplicativo usa a entrada fornecida pelo usuário para acessar objetos diretamente, sem verificar se o usuário tem permissão para tal. O termo IDOR foi popularizado por sua aparição no OWASP 2007 Top Ten. No entanto, é apenas um exemplo de muitos erros de implementação de controle de acesso que podem fazer com que os controles de acesso sejam contornados. Vulnerabilidades de IDOR são mais comumente associadas ao 'aumento de privilégio horizontal', mas também podem surgir em relação ao aumento de privilégio vertical.
 
@@ -307,6 +365,8 @@ A 'referência direta a objetos inseguros' (IDOR - Insecure direct object refere
 [owasp.org pdf](https://owasp.org/www-chapter-ghana/assets/slides/IDOR.pdf)
 
 ### SSRF
+
+<img src="https://portswigger.net/web-security/images/cross-site%20request%20forgery.svg">
 
 A 'falsificação de solicitação do lado do servidor' (SSRF - Server-side request forgery) é uma vulnerabilidade de segurança da web que permite que um invasor induza o servidor a fazer solicitações HTTP (ou outros tipos) para um domínio de escolha do invasor.
 
@@ -320,6 +380,8 @@ Testes suas habilidades de SSRF [aqui](https://github.com/WebGoat/WebGoat).
 
 ### XXE
 
+<img src="https://portswigger.net/web-security/xxe">
+
 Um 'ataque de entidade externa' (XXE - External Entity attack) é um tipo de ataque contra um aplicativo que analisa a entrada XML. Este ataque ocorre quando a entrada XML contendo uma referência a uma entidade externa é processada por um analisador XML com configuração fraca. Este ataque pode levar à divulgação de dados confidenciais, negação de serviço, falsificação de solicitação do lado do servidor, varredura de porta da perspectiva da máquina onde o analisador está localizado e outros impactos no sistema.
 
 
@@ -328,6 +390,8 @@ Um 'ataque de entidade externa' (XXE - External Entity attack) é um tipo de ata
 [owasp.org ler depois, explicação mais completa](https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html)
 
 ### Race Condition
+
+<img src="">
 
 Uma 'condição de corrida' (Race Condition) é uma falha que produz um resultado inesperado quando o tempo das ações afeta outras ações. Um exemplo pode ser visto em um aplicativo multithread em que as ações estão sendo executadas nos mesmos dados. As condições da corrida, por sua própria natureza, são difíceis de testar.
 
@@ -340,6 +404,8 @@ Uma 'condição de corrida' (Race Condition) é uma falha que produz um resultad
 
 ### Git Exposed
 
+<img src="">
+
 Git exposed ou git exposto, em português, é uma falha que, caso a pasta .git esteja exposta, é possível que um atacante tenha acesso ao código fonte da aplicação.
 
 [Artigo medium. em português](https://gabrieldkgh.medium.com/git-exposed-encontrando-manualmente-e-automatizado-como-explorar-como-arrumar-a-falha-eaa3ee98fe8c)<br>
@@ -347,6 +413,8 @@ Git exposed ou git exposto, em português, é uma falha que, caso a pasta .git e
 [Artigo código fonte exposto](https://blog.devgenius.io/source-code-disclosure-via-exposed-git-folder-24993c7561f1)
 
 ### CRLF
+
+<img src="">
 
 O termo CRLF se refere a 'Carriage return' (ASCII 13, \r) 'Line Feed' (ASCII 10, \n). Eles são usados para observar o encerramento de uma linha, no entanto, tratada de forma diferente nos sistemas operacionais populares de hoje. Por exemplo: no Windows, um CR e LF são obrigados a observar o final de uma linha, enquanto no Linux / UNIX um LF é necessário apenas. No protocolo HTTP, a sequência CR-LF é sempre usada para encerrar uma linha.
 
@@ -359,6 +427,8 @@ Existem mais dois usos comuns de ataques de injeção CRLF: envenenamento de log
 [greysec.net](https://greysec.net/showthread.php?tid=7022)
 
 ### LFI e RFI
+
+<img src="">
 
 Inclusão de arquivo remoto (RFI - Remote File Inclusion) e Inclusão de arquivo local (LFI - Local File Inclusion) são vulnerabilidades  freqüentemente encontradas em aplicativos da web mal escritos. Essas vulnerabilidades ocorrem quando um aplicativo da web permite que o usuário envie entrada em arquivos ou faça upload de arquivos para o servidor.
 
@@ -373,12 +443,16 @@ Vulnerabilidades de RFI são mais fáceis de explorar, mas menos comuns. Em vez 
 
 ### Open Redirect
 
+<img src="">
+
 Open Redirect são possíveis quando um aplicativo da web aceita entradas de dados não confiáveis, que podem fazer com que o servidor redirecione a solicitação para uma outra URL contido na entrada não confiável. Ao modificar a entrada de URL não confiável para um site malicioso, um invasor pode lançar um esquema de phishing e roubar as credenciais do usuário.
 
 [owasp.com](https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html)<br>
 [treinaweb.com.br, em português](https://www.treinaweb.com.br/blog/open-redirect-vulnerabilidade-de-redirecionamento-aberto)
 
 ### NoSQL Injection
+
+<img src="">
 
 Uma vulnerabilidade de injeção NoSQL é um erro em um servidor da web que usa um banco de dados NoSQL (normalmente MongoDB). Esse problema de segurança do aplicativo da web permite que uma parte mal-intencionada ignore a autenticação, extraia dados, modifique dados ou até mesmo obtenha controle completo sobre o aplicativo. Ataques de injeção de NoSQL são o resultado de uma falta de sanetização de dados.
 
@@ -390,6 +464,8 @@ Recomendo o estudo de Node JS, MongoDB, Mongoose e Express, caso de deseje se ap
 [book.hacktricks.xyz](https://book.hacktricks.xyz/pentesting-web/nosql-injection)
 
 ### Unrestricted File Upload
+
+<img src="">
 
 Os uploads de arquivos representam um risco significativo para os servidores. O primeiro passo em muitos ataques é fazer upload de código malicioso ao sistema alvo. Então, o ataque só precisa encontrar uma maneira de fazer com que o código seja executado. Usar um upload de arquivo ajuda o invasor a realizar a primeira etapa.
 
@@ -407,6 +483,8 @@ A outra variação do problema é com o tamanho ou conteúdo do arquivo. A gama 
 
 ### Dependency Confusion
 
+<img src="">
+
 Recomendo que você conheça gerenciadores de pacotes, como pip, gems ou npm antes de começar a testar por esta vulnerabilidade.
 
 O conceito da vulnerabilidade Dependency Confusion é que, por causa de como os gerenciadores de pacotes são construídos, se você criar uma biblioteca maliciosa pública com o mesmo nome de uma biblioteca interna da empresa e com uma versão maior, quando o programador executar o comando para atualizar as bibliotecas (ou algo similar), o gerenciador de pacotes irá baixar a sua biblioteca maliciosa permitindo, na grande maioria das vezes, execução remota de código.
@@ -415,6 +493,8 @@ O conceito da vulnerabilidade Dependency Confusion é que, por causa de como os 
 [braziljs.org, em português](https://www.braziljs.org/p/dependency-confusion)
 
 ### Subdomain Takeover
+
+<img src="">
 
 Para entender esta vulnerabilidade, primeiro é necessário entender o que são CNAMEs, portanto, tenha certeza de ter entendido isto muito bem nas aulas de redes.
 
@@ -427,6 +507,8 @@ As tomadas de controle de subdomínio (Subdomain Takeover) são uma ameaça comu
 
 ### Insecurity Deserialization
 
+<img src="">
+
 A desserialização insegura (Insecurity Deserialization) ocorre quando os dados controláveis pelo usuário são desserializados por um site. Isso permite que um invasor manipule objetos serializados para passar dados prejudiciais ao código do aplicativo.
 
 [portswigger.net](https://portswigger.net/web-security/deserialization)
@@ -434,6 +516,8 @@ A desserialização insegura (Insecurity Deserialization) ocorre quando os dados
 [owasp.org](https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization)
 
 ### Request Smuggling
+
+<img src="">
 
 O contrabando de solicitações HTTP (Request Smuggling) é uma técnica para interferir na maneira como um site da Web processa sequências de solicitações HTTP recebidas de um ou mais usuários. Vulnerabilidades Request Smuggling costumam ser de natureza crítica, permitindo que um invasor ignore os controles de segurança, obtenha acesso não autorizado a dados confidenciais e comprometa diretamente outros usuários de aplicativos.
 
@@ -443,6 +527,8 @@ O contrabando de solicitações HTTP (Request Smuggling) é uma técnica para in
 [owasp.org | testando request smuggling](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/15-Testing_for_HTTP_Splitting_Smuggling)
 
 ### Clickjacking
+
+<img src="">
 
 Clickjacking é um ataque baseado em interface em que um usuário é induzido a clicar em um conteúdo acionável em um site oculto, clicando em algum outro conteúdo em um site falso.
 
@@ -454,11 +540,24 @@ Usando uma técnica semelhante, os pressionamentos de teclas também podem ser s
 [portswigger.net](https://portswigger.net/web-security/clickjacking)
 
 ### Cache Poisoning
-https://owasp.org/www-community/attacks/Cache_Poisoning
+
+<img src="">
+
+O envenenamento do cache da Web (Web Cache Poisoning) é uma técnica avançada pela qual um invasor explora o comportamento de um servidor da Web e do cache para que uma resposta HTTP prejudicial seja servida a outros usuários.
+
+Fundamentalmente, o envenenamento do cache da web envolve duas fases. Primeiro, o invasor deve descobrir como obter uma resposta do servidor back-end que contenha algum tipo de carga (payload) perigoso. Uma vez bem-sucedidos, eles precisam ter certeza de que sua resposta é armazenada em cache e, posteriormente, servida às vítimas pretendidas.
+
+Um cache da web envenenado pode ser um meio devastador de distribuir vários ataques diferentes, explorando vulnerabilidades como XSS, injeção de JavaScript, Open Redirect e assim por diante.
+
+<img src="https://portswigger.net/web-security/images/caching.svg">
+[owasp.org](https://owasp.org/www-community/attacks/Cache_Poisoning)
+[portswigger.net](https://portswigger.net/web-security/web-cache-poisoning)
 
 <!-- Adicionar python ou bash aos pré requisitos -->
 
 ## Participe de comunidades de cyber segurança
+
+<img src="">
 
 Discord. Se você ainda não conhece essa plataforma (estilo rede social), está perdendo. Você pode criar uma conta e participar de servidores focados em ethical hacking, sejam eles em português ou inglês.
 - [Boitatech](https://www.boitatech.com.br/) Gurizada BR de hacking, bem interessante. \[pt\]
@@ -472,6 +571,8 @@ Discord. Se você ainda não conhece essa plataforma (estilo rede social), está
 
 ## E-books e livros que vão te ajudar
 
+<img src="">
+
 - E-book grátis da [hackerone](https://www.hackerone.com/ethical-hacker/hack-learn-earn-free-e-book): 
 - Bug Bounty Bootcamp by Vickie Li
 - Bug Hunter Diary
@@ -479,6 +580,9 @@ Discord. Se você ainda não conhece essa plataforma (estilo rede social), está
 - The Web Application Hacker's Handbook [Este é realmente muito bom]
 
 ## Onde se informar sobre novas vulnerabilidades e se manter atualizado
+
+<img src="">
+
 - Hackctivity da hackerone, bugcrowd, YesWeHack, etc., todas essas plataformas de reportes de vulnerabilidades
 - Artigos no medium.com. Tente procurar pelas tags `hacking`, `hackerone`, `cybersec`.
 - Twitter. Pode parece meio plot twist, mas o twitter é uma fonte de informação muito boa quando se diz respeito à tecnologia. Muitas vulnerabilidades 0days são compartilhadas lá. Recomendo a criação de uma conta onde você fique cercado nesse universo da cybersec.
@@ -486,10 +590,14 @@ Discord. Se você ainda não conhece essa plataforma (estilo rede social), está
 
 ## Licença
 
+<img src="">
+
 MIT License. [Leia mais](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt).
 
 
 ## Fontes
+
+<img src="">
 
 - [Hacker roadmap](https://github.com/sundowndev/hacker-roadmap)
 - [Dados de ataques hackers](https://olhardigital.com.br/2021/09/12/seguranca/brasil-e-o-5o-pais-em-ataques-de-hackers-contra-empresas)
