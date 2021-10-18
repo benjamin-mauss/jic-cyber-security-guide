@@ -762,4 +762,10 @@ p {
 .ferramenta {
   width: 15px; 
  }
+
+ main_page img{
+   width: 100%;
+   object-fit: cover;
+   max-heigth: 500px;
+ }
 </style>
