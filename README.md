@@ -71,7 +71,7 @@ O estudante e autor do projeto, Benjamin Walter, segue essa metodologia e, atual
   - [Google dork](#google-dork)
   - [Crawling](#crawling)
   - [Visual Recon](#visual-recon)
-- [<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png" class="ferramenta"> Ferramentas***](#Ferramentas) <!-- Dar um ls na minhas tools. Pesquisar por tools usadas no pentest -->
+- [<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png" class="ferramenta"> Ferramentas](#Ferramentas) <!-- Dar um ls na minhas tools. Pesquisar por tools usadas no pentest -->
   - [<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png" class="ferramenta"> Burp Suite Community](#burp-suite-community)
   - [<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png" class="ferramenta"> Nmap](#nmap)
   - [<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png" class="ferramenta"> FFUF](#ffuf)
