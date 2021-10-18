@@ -303,7 +303,6 @@ Cross-Origin Resource Sharing (CORS), tem a ver com o sistema de permissões que
 Recomendo a leitura da [documentação](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS)
 Não precisa se apegar a aprender muito bem isso. No momento em que você aprender sobre a vulnerabilidade XSS, você aprenderá na prática, porém é importantíssimo saber que existe.
 
-
 ### Linux
 
 <img src="https://1.bp.blogspot.com/-TTiSfBs6nfk/XufwvH91pMI/AAAAAAAAzZg/R-7h5f9W0T8-sLDzJC2V6KQQTugq4-JegCLcBGAsYHQ/s1600/V%25C3%25ADdeo%2B-%2B%2BUbuntu%2BLinux%2B20.04%2Bmais%2Bleve%2B.png">
@@ -313,13 +312,24 @@ Linux é um (core do) sistema operacional muito conhecido, open source. Recomend
 [Curso introdutório, mais fraquinho, recomendo o de baixo](https://www.cursoemvideo.com/curso/linux/)
 [Curso de linux, ótimo, recomendo](https://www.youtube.com/playlist?list=PLucm8g_ezqNp92MmkF9p_cj4yhT-fCTl7)
 
+### Python ou BASH
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Python_image.jpg/800px-Python_image.jpg">
+
+Python e BASH são linguagens interpretadas. Muitas ferramentas de pentest são feitas utilizando elas. Bash irá lhe proporcionar uma agilidade desigual no terminal, permitindo a automação e integração de outras ferramentas.
+
+Por outro lado, Python tem uma gama enorme de bibliotecas que facilitam e agilizam qualquer código, além de ser uma linguagem facílima de aprender.
+
+Recomendo a aprendizagem de ambas. Se não puder, opte por uma das duas.
+
+[Curso python](https://www.cursoemvideo.com/curso/python-3-mundo-1/)
+[Curso bash](http://www.bosontreinamentos.com.br/curso-de-shell-scripting/)
+
 ## Vulnerabilidades
 
 <img src="https://c.pxhere.com/photos/39/f0/hacking_hacker_computer_internet_security_data_technology_network-488123.jpg!d" srcset="https://c.pxhere.com/photos/39/f0/hacking_hacker_computer_internet_security_data_technology_network-488123.jpg!d" alt="computador, tecnologia, número, Internet, linha, biologia, segurança, Fonte, texto, diagrama, espião, privacidade, Pc, crime, protecção, senha, rede, apresentação, código, Captura de tela, dados, Corte, Hacker, Hacking, Cyber, Spyware, Firewall, Segurança informática, segurança de dados, Banco de imagens In PxHere">
 
 Como dito antes, o inglês é essencial. Nesta parte, praticamente todas as explicações das vulnerabilidades estão em inglês, por isso, não se impressione caso não encontrar artigos em português.
-
-<!-- LEMBRAR DE COLOCAR IMAGENS E EMOJIS E TUDO OOF; CONTINUAR DAQUI -->
 
 ### DOS
 
@@ -525,8 +535,6 @@ A desserialização insegura (Insecurity Deserialization) ocorre quando os dados
 <img src="http-request-smuggling.svg">
 
 O contrabando de solicitações HTTP (Request Smuggling) é uma técnica para interferir na maneira como um site da Web processa sequências de solicitações HTTP recebidas de um ou mais usuários. Vulnerabilidades Request Smuggling costumam ser de natureza crítica, permitindo que um invasor ignore os controles de segurança, obtenha acesso não autorizado a dados confidenciais e comprometa diretamente outros usuários de aplicativos.
-
-<img src="http-request-smuggling.svg">
 
 [portswigger.net](https://portswigger.net/web-security/request-smuggling)<br>
 [owasp.org testando request smuggling](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/15-Testing_for_HTTP_Splitting_Smuggling)
