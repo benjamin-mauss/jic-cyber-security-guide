@@ -765,7 +765,7 @@ p {
   width: 15px; 
  }
 
- main_page img{
+ #main_content img{
    width: 100%;
    object-fit: cover;
    max-heigth: 500px;
