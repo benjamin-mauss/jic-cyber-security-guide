@@ -537,8 +537,6 @@ Clickjacking é um ataque baseado em interface em que um usuário é induzido a 
 
 Usando uma técnica semelhante, os pressionamentos de teclas também podem ser sequestrados. Com uma combinação cuidadosamente elaborada de css, iframes e caixas de texto, um usuário pode ser levado a acreditar que está digitando a senha em seu e-mail ou conta bancária, mas em vez disso está digitando em um quadro invisível controlado pelo invasor.
 
-<img src="clickjacking-infographic.svg">
-
 [owasp.org](https://owasp.org/www-community/attacks/Clickjacking)<br>
 [portswigger.net](https://portswigger.net/web-security/clickjacking)
 
@@ -597,6 +595,32 @@ A ferramenta mais fácil para fazer isso é o [aquatone](https://github.com/mich
 ## Ferramentas
 
 <img src="https://cdn.pixabay.com/photo/2015/07/28/20/55/tools-864983_960_720.jpg">
+
+As principais ferramentas utilizadas no pentest e bug bounty.
+
+### Burp Suite Community
+
+[Burp Suite Community](https://portswigger.net/burp) é uma ferrementa gratuita que permite a colocação de uma proxy local, afim de interceptar e analisar o tráfego HTTP e WebSocket do navegador. É um canivete suíço para qualquer pentester. Recomendo um estudo inteso da ferramenta.
+
+### nmap
+
+O [nmap](https://nmap.org/) permite a execução de scripts personalizados que possibilitam a identificação de informações específicas. Ele opera realizando escaneamento de alvos, os quais podem ser redes e hosts, estejam eles abertos para a internet ou não. Seu principal uso é para escaneamento de portas abertas.
+
+### FFUF
+
+FFUF é uma ferramenta de fuzzing utilizando o protocolo HTTP. Essa ferramenta irá ajudar no reconhecimento e bruteforce. Essa ferramenta é utilizada principalmente para enumeração de caminhos (paths) . O melhor tutorial (completo) de FFUF é [este](https://codingo.io/tools/ffuf/bounty/2020/09/17/everything-you-need-to-know-about-ffuf.html).
+
+### Amass
+
+[Amass](https://github.com/OWASP/Amass), ferramenta muito utilizado para enumeração de subdomínios passiva e ativa. Recomenda-se o uso junto com [dnsx](https://github.com/projectdiscovery/dnsx) e [massdns](https://github.com/blechschmidt/massdns).
+
+### Hydra
+
+[Hydra](https://en.kali.tools/?p=220) é um ferramenta de bruteforce baseado em dicionários. Utilizada principalmente para bruteforce em SSH. Leia mais sobre em [elias.praciano.com, em português](https://elias.praciano.com/2015/07/use-o-hydra-para-quebrar-senhas-por-forca-bruta/)
+
+### John The Ripper
+
+[John The Ripper](https://www.openwall.com/john/) é um dos melhores crackers de senha. Ele opera com ataques de dicionário em modo off-line e pode ser executado sobre um arquivo de senhas como o /etc/passwd, no kali linux.
 
 ## Bug Bounty
 
@@ -726,6 +750,9 @@ MIT License. [Leia mais](https://github.com/git/git-scm.com/blob/main/MIT-LICENS
 - [hacker](https://br.malwarebytes.com/hacker/)
 - [razões para hackear](https://www.tecmundo.com.br/seguranca/10731-7-razoes-para-hackear.htm)
 - [ctf](https://ctf-br.org/sobre/)
+- [ferramentas](https://ostec.blog/geral/pentest-as-10-melhores-ferramentas-usadas-no-mercado/)
+
+Atenção: Todas as images utilizadas tem [licença creative commons](https://creativecommons.org/licenses/?lang=pt_BR) OU autorização do autor.
 
 <style>
 p {
