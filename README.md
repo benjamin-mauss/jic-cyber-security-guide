@@ -762,10 +762,10 @@ p {
   text-align: justify;
   }
 .ferramenta {
-  width: 15px; 
+  width: 15px;
  }
 
- #main_content img{
+ #main_content img .ferramenta:not {
    width: 100%;
    object-fit: cover;
    max-height: 500px;
