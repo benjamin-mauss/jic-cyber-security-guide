@@ -6,7 +6,7 @@
 
 <div id="apresentation_text">
   <p>
-Sabe-se que a demanda por profissionais de segurança da informação está cada vez maior e que há a falta de profissionais qualificados. Os conteúdos dispersos confundem estudantes que querem aprender ou, muitas vezes, por ser um ramo novo, há um desconhecimento da área.
+Segundo a revista <a href="https://www.forbes.com/sites/forbestechcouncil/2021/03/26/do-you-have-a-cybersecurity-talent-shortage-dont-require-a-four-year-degree/?sh=3a5537be1b88">Forbes</a>, a demanda por profissionais de segurança da informação está cada vez maior e, atualmente, há a falta de mais de 3 milhões de  profissionais qualificados. Os conteúdos dispersos confundem estudantes que querem aprender ou, muitas vezes, por ser um ramo novo, há um desconhecimento da área.
 </p><p>
 Somente em 2021, ataques hackers já atingiram US$ 6 trilhões em prejuízos, dinheiro que poderia estar sendo investido em avanços tecnológicos, segurança ou educação. Ataques hackers a hospitais, usinas nucleares e grandes estruturas podem acabar em tragédias, gerando perda de vidas.
 </p><p>
