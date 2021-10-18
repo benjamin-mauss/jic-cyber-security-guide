@@ -1,5 +1,6 @@
 # Guia de estudos para Web Hacking \[2021\]
-![WEBHACKING](https://user-images.githubusercontent.com/86640585/137555285-2818548d-68f9-4658-b248-c3776367303a.png)
+
+<img src="https://user-images.githubusercontent.com/86640585/137555285-2818548d-68f9-4658-b248-c3776367303a.png" alt="WEBHACKING" style="width: 100%;object-fit: cover;max-height: 300px;">
 
 ## Apresentação
 
