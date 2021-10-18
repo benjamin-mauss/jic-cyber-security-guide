@@ -768,6 +768,6 @@ p {
  #main_content img{
    width: 100%;
    object-fit: cover;
-   max-heigth: 500px;
+   max-height: 500px;
  }
 </style>
