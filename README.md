@@ -307,7 +307,7 @@ Não precisa se apegar a aprender muito bem isso. No momento em que você aprend
 
 <img src="https://1.bp.blogspot.com/-TTiSfBs6nfk/XufwvH91pMI/AAAAAAAAzZg/R-7h5f9W0T8-sLDzJC2V6KQQTugq4-JegCLcBGAsYHQ/s1600/V%25C3%25ADdeo%2B-%2B%2BUbuntu%2BLinux%2B20.04%2Bmais%2Bleve%2B.png">
 
-Linux é um (core do) sistema operacional muito conhecido, open source. Recomendo a instalação de uma distro em dual boot na sua máquina, caso já não o tenha. Muitas ferramentas para pestest são feitas em Linux. Muitos servidores usam linux. Estude sobre linux :)
+Linux é um \[core do\] sistema operacional muito conhecido, open source. Recomendo a instalação de uma distro em dual boot na sua máquina, caso já não o tenha. Muitas ferramentas para pestest são feitas em Linux. Muitos servidores usam linux. Estude sobre linux :)
 
 [Curso introdutório, mais fraquinho, recomendo o de baixo](https://www.cursoemvideo.com/curso/linux/)
 [Curso de linux, ótimo, recomendo](https://www.youtube.com/playlist?list=PLucm8g_ezqNp92MmkF9p_cj4yhT-fCTl7)
@@ -318,7 +318,7 @@ Linux é um (core do) sistema operacional muito conhecido, open source. Recomend
 
 Python e BASH são linguagens interpretadas. Muitas ferramentas de pentest são feitas utilizando elas. Bash irá lhe proporcionar uma agilidade desigual no terminal, permitindo a automação e integração de outras ferramentas.
 
-Por outro lado, Python tem uma gama enorme de bibliotecas que facilitam e agilizam qualquer código, além de ser uma linguagem facílima de aprender.
+Por outro lado, Python contém uma gama enorme de bibliotecas que facilitam e agilizam qualquer código, além de ser uma linguagem facílima de aprender.
 
 Recomendo a aprendizagem de ambas. Se não puder, opte por uma das duas.
 
@@ -598,7 +598,7 @@ Google Dork é o processo de usar o google de forma invasiva. Muitas vezes, URLs
 
 ### Visual recon
 
-Após você enumerar os subdomínios, portas e fazer crawling do website, é interessante uma ferramenta que, em todos os subdomínios que tem uma porta que utiliza o protocolo http (que podem ser encontrador utilizando a ferramenta [httpx](https://github.com/projectdiscovery/httpx)), tire um 'printscreen' da tela. Com isso, você pode separar o que você irá investigar primeiro (por exemplo, você viu um painél de admin no subdomínio staff.example.com. Faz mais sentido do você tentar encontrar uma vulnerabilidade lá primeiro do que em uma página que retornou um error 404 (forbidden)).
+Após você enumerar os subdomínios, portas e fazer crawling do website, é interessante uma ferramenta que, em todos os subdomínios que contém uma porta que utiliza o protocolo http (que podem ser encontrador utilizando a ferramenta [httpx](https://github.com/projectdiscovery/httpx)), tire um 'printscreen' da tela. Com isso, você pode separar o que você irá investigar primeiro (por exemplo, você viu um painél de admin no subdomínio staff.example.com. Faz mais sentido do você tentar encontrar uma vulnerabilidade lá primeiro do que em uma página que retornou um error 404 (forbidden)).
 
 A ferramenta mais fácil para fazer isso é o [aquatone](https://github.com/michenriksen/aquatone).
 
@@ -701,7 +701,7 @@ Discord. Se você ainda não conhece essa plataforma (estilo rede social), está
 - [Hackerone](https://discord.gg/Qqfwmfuav7) Web Hacking, tutoriais bons \[en\]
 - [XSS Rat](https://discord.gg/2EDuJR3c4K) Web Hacking e instruções para iniciantes \[en\]
 - [InsiderPHP](https://discord.gg/2sFmxQwg4e) Web Hacking e instruções para iniciantes \[en\]
-- [Mente Binária](https://menteb.in/discord) Mais focado em low level hacking, mas tem web hacking tbm \[pt\]
+- [Mente Binária](https://menteb.in/discord) Mais focado em low level hacking, porém há conteúdos de web hacking também \[pt\]
 
 ## E-books e livros que vão te ajudar
 
@@ -762,7 +762,7 @@ MIT License. [Leia mais](https://github.com/git/git-scm.com/blob/main/MIT-LICENS
 - [ctf](https://ctf-br.org/sobre/)
 - [ferramentas](https://ostec.blog/geral/pentest-as-10-melhores-ferramentas-usadas-no-mercado/)
 
-Atenção: Todas as images utilizadas tem [licença creative commons](https://creativecommons.org/licenses/?lang=pt_BR) OU autorização do autor.
+Atenção: Todas as images utilizadas estão sobre a [licença creative commons](https://creativecommons.org/licenses/?lang=pt_BR) OU autorização do autor, que permitem o uso da maneira utilizada.
 
 <style>
 
