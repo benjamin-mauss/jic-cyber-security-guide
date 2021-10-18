@@ -29,7 +29,7 @@ O estudante e autor do projeto, Benjamin Walter, segue essa metodologia e, atual
     - [Desafio](#desafio)
     - [Liberdade](#liberdade)
     - [Dinheiro](#dinheiro)
-- [O inglês é essencial!](#o-inglês-é-essencial)
+  - [O inglês é essencial!](#o-inglês-é-essencial)
 - [O que você precisa saber antes de começar no web hacking?](#o-que-você-precisa-saber-antes-de-começar-no-web-hacking)
   - [Lógica de programação](#lógica-de-programação)
   - [OAC - Organização e arquitetura de computadores](#oac---organização-e-arquitetura-de-computadores)
@@ -154,7 +154,7 @@ Uma falha de segurança pode ser catastrófica para uma empresa. Uma empresa só
 
 Na real, isso demora e exige dedicação. Às vezes, você não entende o que o instrutor está falando e tem que pesquisar sobre um assunto, então descobre que tem ainda mais para aprender.
 
-## O inglês é essencial
+### O inglês é essencial
 
 <img src="https://p1.pxfuel.com/preview/789/890/518/education-photo-language-learning-specs-english-hungarian.jpg">
 
