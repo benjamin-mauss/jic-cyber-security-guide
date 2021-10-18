@@ -766,7 +766,7 @@ p {
   width: 15px;
  }
 
- #main_content img.not(.ferramenta)  {
+ #main_content img:not(.ferramenta)  {
    width: 100%;
    object-fit: cover;
    max-height: 500px;
