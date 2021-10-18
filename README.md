@@ -64,25 +64,29 @@ O estudante e autor do projeto, Benjamin Walter, segue essa metodologia e, atual
   - [Request Smuggling](#request-smuggling)
   - [Clickjacking](#clickjacking)
   - [Cache Poisoning](#cache-poisoning)
-- [Reconhecimento do alvo***](#)  <!-- Ver a just another recon guide -->
-  - [Enumeração de subdomínos](#)
-  - [Enumeração de portas](#)
-  - [Google dork](#)
-  - [Crawling](#)
-- [<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png" class="ferramenta"> Ferramentas***](#) <!-- Dar um ls na minhas tools. Pesquisar por tools usadas no pentest -->
+- [Reconhecimento do alvo](#reconhecimento-do-alvo)
+  - [Enumeração de subdomínos](#enumeração-de-subdomínos)
+  - [Enumeração de portas abertas](#enumeração-de-portas-abertas)
+  - [Fuzzing](#fuzzing)
+  - [Google dork](#google-dork)
+  - [Crawling](#crawling)
+  - [Visual Recon](#visual-recon)
+- [<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png" class="ferramenta"> Ferramentas***](#Ferramentas) <!-- Dar um ls na minhas tools. Pesquisar por tools usadas no pentest -->
   - [<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png" class="ferramenta"> BurpSuite](#)
   - [<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png" class="ferramenta"> Sqlmap](#)
   - [<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png" class="ferramenta"> amass](#)
   - [<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png" class="ferramenta"> nmap](#)
-- [Bug bounty***](#)
-  - [Como participar](#)
-  - [Plataformas](#)
-- [CTF***](#)
-  - [Como participar](#)
-  - [Plataformas](#)
-- [Pentest***](#)
-  - [Como começar no pentest](#)
-  - [Certificações](#)
+- [Bug bounty](#bug-bounty)
+  - [O que são programas de bug bounty](#o-que-são-programas-de-bug-bounty)
+  - [Como participar de programas de bug bounty](#como-participar-de-programas-de-bug-bounty)
+  - [Plataformas de bug bounty](#plataformas-de-bug-bounty)
+- [CTF](#ctf)
+  - [O que são CTFs](#o-que-são-ctfs)
+  - [Plataformas de CTFs](#plataformas-de-ctfs)
+- [Pentest](#pentest)
+  - [O que é o pentest](#O-que-é-o-pentest)
+  - [Como começar no pentest](#como-começar-no-pentest)
+  - [Certificações](#certificações)
 - [Participe de comunidades de cyber segurança](#participe-de-comunidades-de-cyber-segurança)
 - [Ebooks e livros que vão te ajudar](#ebooks-e-livros-que-vão-te-ajudar)
 - [A estrada não acaba aqui](#a-estrada-não-acaba-aqui)
@@ -554,6 +558,104 @@ Um cache da web envenenado pode ser um meio devastador de distribuir vários ata
 
 <!-- Adicionar python ou bash aos pré requisitos -->
 
+## Reconhecimento do alvo
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flickr_-_Israel_Defense_Forces_-_Givati_Recon_Company_at_Training.jpg/800px-Flickr_-_Israel_Defense_Forces_-_Givati_Recon_Company_at_Training.jpg">
+
+Esta parte é essencial. Recon - ou reconhecimento - do alvo, é uma etapa essencial que vai, como o próprio nome diz, reconhecer o alvo. Vamos enumerar subdomínios, portas, caminhos, parâmetros, valores, url, etc. Tudo isso, para ajudar a encontrar novos lugares onde possamos encontrar vulnerabilidades. O crawling do website também é essencial
+
+### Enumeração de subdomínos
+
+Uma parte vital do processo que, de forma alguma, você pode esquecer. Ferramentas como [findomain](https://github.com/Findomain/Findomain), [HostileSubBruteforcer](https://github.com/nahamsec/HostileSubBruteforcer), [subbrute](https://github.com/TheRook/subbrute), [sublist3r](https://github.com/aboul3la/Sublist3r), [amass](https://github.com/OWASP/Amass), [assetfinder](https://github.com/tomnomnom/assetfinder), [subfinder](https://github.com/projectdiscovery/subfinder), [gau](https://github.com/lc/gau) \[em conjunto\], [gospider](https://github.com/jaeles-project/gospider) \[em conjunto\], [getJS](https://github.com/003random/getJS) \[em conjunto\], [DNSgen](https://github.com/ProjectAnte/dnsgen) \[em conjunto\], [dnsx](https://github.com/projectdiscovery/dnsx), [massdns](https://github.com/blechschmidt/massdns) vão, indubtavelmente, ajudar a encontrar diversos alvos.
+
+### Enumeração de portas abertas
+
+A enumeração de portas é um parte muito importante, pois podemos encontrar processos como um banco de dados MySQL acessível para tentativa de bruteforce. Esta enumeração deve ser feita para cada subdomínio.
+
+Normalmente, a ferramenta para fazer isso é o [nmap](#nmap).
+
+### Fuzzing
+
+Fuzzing - Enumeração de caminhos, parêmetros, parâmetros, valores e subdomínios, atravéz da força bruta.
+
+Uma ferramenta de fuzzing, como o [FFUF](#ffuf), irá ajudar no reconhecimento e bruteforce de tudo que envolve o protocolo HTTP. O melhor tutorial (completo) de FFUF é [este](https://codingo.io/tools/ffuf/bounty/2020/09/17/everything-you-need-to-know-about-ffuf.html).
+
+### Crawling
+
+Crawling é o processo de navegar por todo o website, clickando em links e urls disponíveis. Neste caso, quem fará este processo é uma ferramente chamada [gospider](#gospider).
+
+### Google Dork
+
+Google Dork é o processo de usar o google de forma invasiva. Muitas vezes, URLs com tokens acesso são expostos na web e o google indexa isso. Em geral, Google Dork é feita de forma manual, porém ferramentas como [dorkScanner](https://github.com/madhavmehndiratta/dorkScanner) e [Katana](https://github.com/TebbaaX/Katana) irão facilitar o processo.
+
+### Visual recon
+
+Após você enumerar os subdomínios, portas e fazer crawling do website, é interessante uma ferramenta que, em todos os subdomínios que tem uma porta que utiliza o protocolo http (que podem ser encontrador utilizando a ferramenta [httpx](https://github.com/projectdiscovery/httpx)), tire um 'printscreen' da tela. Com isso, você pode separar o que você irá investigar primeiro (por exemplo, você viu um painél de admin no subdomínio staff.example.com. Faz mais sentido do você tentar encontrar uma vulnerabilidade lá primeiro do que em uma página que retornou um error 404 (forbidden)).
+
+A ferramenta mais fácil para fazer isso é o [aquatone](https://github.com/michenriksen/aquatone).
+
+## Ferramentas
+
+<img src="https://cdn.pixabay.com/photo/2015/07/28/20/55/tools-864983_960_720.jpg">
+
+## Bug Bounty
+
+<img src="https://cdn.pixabay.com/photo/2015/05/11/13/28/software-762486_960_720.jpg">
+
+### O que são programas de bug bounty
+
+Um programa de recompensa por bugs (bug bounty) é um mecanismo  oferecido por algumas organizações nos quais indivíduos podem receber recompensas por relatar bugs, especialmente aqueles relacionados a explorações de segurança e vulnerabilidades.
+
+### Como participar de programas de bug bounty
+
+Para participar, você deve se cadastrar em alguma [Plataforma de bug bounty](#plataformas-de-bug-bounty), escolher algum alvo da lista de empresas, ler e seguir as regras.
+
+Empresas como facebook, google, avast, etc. não programas de bug bounty nessas plataformas. Neste caso, eles disponibilizam um lugar no próprio website deles para fazer esse reporte.
+
+### Plataformas de bug bounty
+
+As principais plataformas de bug bounty são: HackerOne, BugCrowd, Intigriti, YesWeHack, OpenBugBounty e SynAck.
+
+## CTF
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/DEF_CON_17_CTF_competition.jpg/800px-DEF_CON_17_CTF_competition.jpg">
+
+### O que são CTFs
+
+O que são CTFs? CTF significa Capture the Flag. No âmbito da informática, são competições que envolvem diversas competências dos profissionais/estudantes/entusiastas para a resolução de desafios relacionados à infosec (segurança da informação), com o objetivo de capturar a bandeira (normalmente um código) e pontuar.
+
+Basicamente, serve para você testar o seu conhecimento tentando invadir máquinas vulneráveis especialmente para isso.
+
+### Plataformas de CTFs
+
+HackTheBox, TryHackMe, Hacker101, Hackaflag, H2HC CTF, DEF CON CTF e Google CTF
+
+## Pentest
+
+<img src="https://live.staticflickr.com/1616/26519416396_3463bfc62b_b.jpg">
+
+### O que é o pentest
+
+O penetration test (pentest), traduzido como teste de intrusão é justamente a ação de tentar invadir um sistema de segurança para testar qual o seu nível de confiabilidade e detectar vulnerabilidades, afim de corrigi-las.
+
+Pense nesse teste como uma simulação de invasão. Se quem testar conseguir passar das barreiras de segurança, outros hackers maliciosos também podem conseguir.
+
+### Como começar no pentest
+
+Após você fazer o que foi indicado neste guia, você deve começar a se aprofundar mais ainda nessas e em outras vulnerabilidades. Com isso, você deve estar apto para começar a fazer algumas [certificações](#certificações).
+
+### Certificações
+
+- CEH ANSI (Certified Ethical Hacker)
+- CEH Practical (Certied Ethical Hacker Practical)
+- ECSA (Security Analyst)
+- ECSA Practical (Security Analyst Practical)
+- LPT (Licensed Penetration Testet)
+- OSCP (Offensive Security Certified Professional)
+- OSCE (Offensive Security Certified Expert)
+
+Recomendo a leitura de ['as certificações mais reconhecidas'](https://academiadeforensedigital.com.br/pentest-as-certificacoes-mais-reconhecidas/).
+
 ## Participe de comunidades de cyber segurança
 
 <img src="https://c.pxhere.com/images/5b/e2/454e9f8f7b59a53828bda147bb69-1637436.jpg!d">
@@ -566,7 +668,6 @@ Discord. Se você ainda não conhece essa plataforma (estilo rede social), está
 - [XSS Rat](https://discord.gg/2EDuJR3c4K) Web Hacking e instruções para iniciantes \[en\]
 - [InsiderPHP](https://discord.gg/2sFmxQwg4e) Web Hacking e instruções para iniciantes \[en\]
 - [Mente Binária](https://menteb.in/discord) Mais focado em low level hacking, mas tem web hacking tbm \[pt\]
-
 
 ## E-books e livros que vão te ajudar
 
@@ -610,13 +711,11 @@ Não. Não acaba mesmo. Todos os dias, dezenas que vulnerabilidades estão sendo
 - Twitter. Pode parece meio plot twist, mas o twitter é uma fonte de informação muito boa quando se diz respeito à tecnologia. Muitas vulnerabilidades 0days são compartilhadas lá. Recomendo a criação de uma conta onde você fique cercado nesse universo da cybersec.
 - O youtube tem vários hackers muito bons também. Algumas lives lhe ajudarão bastante
 
-
 ## Licença
 
 <img src="https://p2.piqsels.com/preview/160/398/379/person-work-woman-man.jpg">
 
 MIT License. [Leia mais](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt).
-
 
 ## Fontes
 
@@ -626,7 +725,7 @@ MIT License. [Leia mais](https://github.com/git/git-scm.com/blob/main/MIT-LICENS
 - [Dados de ataques hackers](https://olhardigital.com.br/2021/09/12/seguranca/brasil-e-o-5o-pais-em-ataques-de-hackers-contra-empresas)
 - [hacker](https://br.malwarebytes.com/hacker/)
 - [razões para hackear](https://www.tecmundo.com.br/seguranca/10731-7-razoes-para-hackear.htm)
-
+- [ctf](https://ctf-br.org/sobre/)
 
 <style>
 p {
