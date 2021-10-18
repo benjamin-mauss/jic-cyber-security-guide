@@ -757,6 +757,7 @@ MIT License. [Leia mais](https://github.com/git/git-scm.com/blob/main/MIT-LICENS
 Atenção: Todas as images utilizadas tem [licença creative commons](https://creativecommons.org/licenses/?lang=pt_BR) OU autorização do autor.
 
 <style>
+
 p {
   text-indent: 2em;
   text-align: justify;
@@ -765,9 +766,10 @@ p {
   width: 15px;
  }
 
- #main_content img .ferramenta:not {
+ #main_content img.not(.ferramenta)  {
    width: 100%;
    object-fit: cover;
    max-height: 500px;
  }
+
 </style>
